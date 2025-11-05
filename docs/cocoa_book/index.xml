@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cocoa Recognition :: Commodity Recognition Book</title>
+    <link>/cocoa_book/index.html</link>
+    <description>Learn to recognize cocoa in satellite imagery.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Nov 2024 19:36:25 +0700</lastBuildDate>
+    <atom:link href="/cocoa_book/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cocoa Gallery</title>
+      <link>/cocoa_book/01_cocoa_gallery/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+      <guid>/cocoa_book/01_cocoa_gallery/index.html</guid>
+      <description>Learn to recognize cocoa in satellite imagery.</description>
+    </item>
+    <item>
+      <title>Understanding Cocoa Cultivation</title>
+      <link>/cocoa_book/02_cocoa_cultivation/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+      <guid>/cocoa_book/02_cocoa_cultivation/index.html</guid>
+      <description>Learn how cocoa is grown and why it looks the way it does from above.</description>
+    </item>
+  </channel>
+</rss>

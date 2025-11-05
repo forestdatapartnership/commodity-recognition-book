@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.147.6">
+    <meta name="generator" content="Relearn 8.0.0+6f266e9b46dc2a685d18950a0f32c37f74e6c50d">
+    <meta name="description" content="Introduction The use of satellite imagery to identify commodities is critical for understanding the impact of agriculture on natural systems, and for the successful implementation of conservation policies like the European Regulation on Deforestation-Free Products (EUDR). The scale of global agriculture demands that this identification be supported with artificial intelligence (AI); however, in many production systems, commodities are difficult to disambiguate from each other and from natural forests, so accurate identification still requires specialized human expertise. This limits the community’s ability to train and evaluate AI models, and in fact limits the community’s ability to even agree on evaluation procedures for AI systems.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Commodity Recognition Book">
+    <meta name="twitter:description" content="Introduction The use of satellite imagery to identify commodities is critical for understanding the impact of agriculture on natural systems, and for the successful implementation of conservation policies like the European Regulation on Deforestation-Free Products (EUDR). The scale of global agriculture demands that this identification be supported with artificial intelligence (AI); however, in many production systems, commodities are difficult to disambiguate from each other and from natural forests, so accurate identification still requires specialized human expertise. This limits the community’s ability to train and evaluate AI models, and in fact limits the community’s ability to even agree on evaluation procedures for AI systems.">
+    <meta property="og:url" content="/index.html">
+    <meta property="og:site_name" content="Commodity Recognition Book">
+    <meta property="og:title" content="Commodity Recognition Book">
+    <meta property="og:description" content="Introduction The use of satellite imagery to identify commodities is critical for understanding the impact of agriculture on natural systems, and for the successful implementation of conservation policies like the European Regulation on Deforestation-Free Products (EUDR). The scale of global agriculture demands that this identification be supported with artificial intelligence (AI); however, in many production systems, commodities are difficult to disambiguate from each other and from natural forests, so accurate identification still requires specialized human expertise. This limits the community’s ability to train and evaluate AI models, and in fact limits the community’s ability to even agree on evaluation procedures for AI systems.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Commodity Recognition Book">
+    <meta itemprop="description" content="Introduction The use of satellite imagery to identify commodities is critical for understanding the impact of agriculture on natural systems, and for the successful implementation of conservation policies like the European Regulation on Deforestation-Free Products (EUDR). The scale of global agriculture demands that this identification be supported with artificial intelligence (AI); however, in many production systems, commodities are difficult to disambiguate from each other and from natural forests, so accurate identification still requires specialized human expertise. This limits the community’s ability to train and evaluate AI models, and in fact limits the community’s ability to even agree on evaluation procedures for AI systems.">
+    <meta itemprop="datePublished" content="2024-11-23T19:36:41+07:00">
+    <meta itemprop="dateModified" content="2024-11-23T19:36:41+07:00">
+    <meta itemprop="wordCount" content="159">
+    <title>Commodity Recognition Book</title>
+    <link href="./index.xml" rel="alternate" type="application/rss+xml" title="Commodity Recognition Book">
+    <link href="./images/favicon.ico?1761686144" rel="icon" type="image/x-icon" sizes="any">
+
+
+    <link href="./fonts/fontawesome/css/fontawesome-all.min.css?1761686144" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="./fonts/fontawesome/css/fontawesome-all.min.css?1761686144" rel="stylesheet"></noscript>
+    <link href="./css/perfect-scrollbar/perfect-scrollbar.min.css?1761686144" rel="stylesheet">
+    <link href="./css/theme.min.css?1761686144" rel="stylesheet">
+    <link href="./css/format-html.min.css?1761686144" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/index.html';
+      window.relearn.relBasePath='.';
+      window.relearn.relBaseUri='.';
+      window.relearn.absBaseUri='';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'zen-light' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script><style>
+div.topbar-sidebar-divider { border-inline-start-width: 0px; }
+#R-homelinks { display: none; }
+</style>
+
+  </head>
+  <body class="mobile-support html" data-url="./index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Commodity Recognition Book</span><meta itemprop="position" content="1"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><span class="topbar-control"><i class="fa-fw fas fa-chevron-left"></i></span>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="./coffee_book/index.html" title="Coffee Recognition (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable home" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="home">
+  <header class="headline">
+  </header>
+
+<h1 id="commodity-recognition-book">Commodity Recognition Book</h1>
+
+<h2 id="introduction">Introduction</h2>
+<p>The use of satellite imagery to identify commodities is critical for understanding the impact of agriculture on natural systems, and for the successful implementation of conservation policies like the <a href="https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en" rel="external" target="_blank">European Regulation on Deforestation-Free Products</a> (EUDR).  The scale of global agriculture demands that this identification be supported with artificial intelligence (AI); however, in many production systems, commodities are difficult to disambiguate from each other and from natural forests, so accurate identification still requires specialized human expertise.  This limits the community&rsquo;s ability to train and evaluate AI models, and in fact limits the community&rsquo;s ability to even agree on evaluation procedures for AI systems.</p>
+<p>This guide book attempts to democratize that expertise by providing tools and examples that will help readers recognize coffee and cocoa in satellite images in a variety of production systems.</p>
+<p>This book was created by the <a href="https://alliancebioversityciat.org/" rel="external" target="_blank">Alliance of Bioversity International and CIAT</a> with support from Google.</p>
+<div class="children children-type-list children-sort-weight">
+  <div class="children-title children-title-1"><a href="./coffee_book/index.html">Coffee Recognition</a></div><p>Learn to recognize coffee in satellite imagery.</p>
+  <div class="children-title children-title-1"><a href="./cocoa_book/index.html">Cocoa Recognition</a></div><p>Learn to recognize cocoa in satellite imagery.</p>
+</div>
+
+
+
+
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <a id="R-logo" class="R-default" href="./index.html">
+            <div class="logo-title">Commodity Recognition Book</div>
+          </a>
+        </div>
+
+
+      </div>
+      <div id="R-homelinks" class="default-animation">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="alwaysopen " data-nav-url="./coffee_book/index.html"><a class="padding" href="./coffee_book/index.html">Coffee Recognition</a><ul id="R-subsections-aecbe3b1de59c17c3af9745087b91024" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-url="./cocoa_book/index.html"><a class="padding" href="./cocoa_book/index.html">Cocoa Recognition</a><ul id="R-subsections-64034de7aff5837cc7a9a7f9419a5bc8" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+          </ul>
+        </div>
+<div id="R-footer"></div>
+      </div>
+    </aside>
+
+
+    <script src="./js/clipboard/clipboard.min.js?1761686144" defer></script>
+    <script src="./js/perfect-scrollbar/perfect-scrollbar.min.js?1761686144" defer></script>
+    <script src="./js/theme.min.js?1761686144" defer></script>
+  </body>
+</html>

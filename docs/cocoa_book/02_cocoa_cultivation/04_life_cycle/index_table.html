@@ -1,0 +1,221 @@
+<html>
+<head>
+    <title>Commodity Book</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .filter-container {
+            padding: 16px 16px 8px 24px;
+            text-align: left;
+        }
+        .filter-container > label,
+        .filter-container > select {
+            font-weight: normal;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .filter-container select {
+            margin: 0 12px 4px 4px;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .card-count {
+            text-align: center;
+            padding: 8px;
+            color: #555;
+            background-color: #f0f0f0;
+        }
+        .card-count:empty {
+            display: none;
+        }
+        .rendered-card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+            padding: 16px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .rendered-card-content {
+            padding: 16px;
+        }
+        .rendered-card-content p {
+            margin: 0 0 8px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="commodity-book-interactive-table">
+        
+        <div id="visible-card-count" class="card-count"></div>
+        <div class="rendered-card-container">
+            
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_6_100_m.webp" alt="Image for ID 6">
+                <div class="rendered-card-content"><p><b>Description:</b> At the center of the image is a dense, infrequently pruned cocoa plot, while the surrounding areas show clear signs of recent replanting, with young cocoa trees growing beneath existing shade trees. Overall, the shade density across the area is low.</p><p><b>Country:</b> Côte d'Ivoire</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Replanting</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@5.763869,-2.78699" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/5.763869,-2.78699" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_15_100_m.webp" alt="Image for ID 15">
+                <div class="rendered-card-content"><p><b>Description:</b> This recently planted cocoa plot features young, small trees growing alongside banana plants. The cocoa trees are approximately two meters tall and still establishing, as confirmed by imagery from Google Street View.</p><p><b>Country:</b> Indonesia</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Recently planted</p><p><b>Pruning:</b> Infrequent</p><p><a href="https://earth.google.com/web/search/@-5.481303,104.888845" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-5.481303,104.888845" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_17_100_m.webp" alt="Image for ID 17">
+                <div class="rendered-card-content"><p><b>Description:</b> This recently planted cocoa plot is part of a large industrial plantation in the Amazon forest. The young cocoa trees are still small and are growing under a few scattered shade trees, resulting in an open canopy structure typical of early-stage commercial plots.</p><p><b>Country:</b> Peru</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Recently planted</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-4.001441,-73.060416" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-4.001441,-73.060416" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_22_100_m.webp" alt="Image for ID 22">
+                <div class="rendered-card-content"><p><b>Description:</b> This is a very recently planted cocoa plot, with young trees approximately 1.5 meters tall, as visible in Google Street View. The cocoa is growing among regularly spaced shade trees, creating a clear and structured layout.</p><p><b>Country:</b> Indonesia</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Recently planted</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-4.256388,121.881926" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-4.256388,121.881926" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_35_100_m.webp" alt="Image for ID 35">
+                <div class="rendered-card-content"><p><b>Description:</b> In this area of Ghana, cocoa appears to have been heavily pruned, an unusual practice for the country. The center of the image is in a more shaded area compared to the adjacent plots.</p><p><b>Country:</b> Côte d'Ivoire</p><p><b>Shade level:</b> Medium</p><p><b>Age:</b> Replanting</p><p><b>Pruning:</b> Infrequent</p><p><a href="https://earth.google.com/web/search/@6.045824,-2.920346" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.045824,-2.920346" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_44_100_m.webp" alt="Image for ID 44">
+                <div class="rendered-card-content"><p><b>Description:</b> Almost full-sun cocoa plantation in Côte d’Ivoire, with a few shade trees featuring darker canopies.</p><p><b>Country:</b> Côte d'Ivoire</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Replanting</p><p><b>Pruning:</b> Infrequent</p><p><a href="https://earth.google.com/web/search/@6.120076,-5.884517" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.120076,-5.884517" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_45_100_m.webp" alt="Image for ID 45">
+                <div class="rendered-card-content"><p><b>Description:</b> Mostly full-sun cocoa plantation, with the surrounding area predominantly cocoa. Some rubber plantations are visible to the north (outside the area visible in the thumbnail).</p><p><b>Country:</b> Côte d'Ivoire</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><a href="https://earth.google.com/web/search/@6.792659,-6.137475" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.792659,-6.137475" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_51_100_m.webp" alt="Image for ID 51">
+                <div class="rendered-card-content"><p><b>Description:</b> Large area with full-sun cocoa and minimal shade. To the east (outside the area visible in the thumbnail), a river is lined with several other tree species.</p><p><b>Country:</b> Côte d'Ivoire</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Recently planted</p><p><b>Pruning:</b> Infrequent</p><p><a href="https://earth.google.com/web/search/@5.217179,-5.976384" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/5.217179,-5.976384" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_54_100_m.webp" alt="Image for ID 54">
+                <div class="rendered-card-content"><p><b>Description:</b> Full-sun cocoa plantation in Peru, recognizable by its lighter green shade. A river lined with trees marks the northern boundary of the plot.</p><p><b>Country:</b> Peru</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-8.781882,-75.062633" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-8.781882,-75.062633" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_57_100_m.webp" alt="Image for ID 57">
+                <div class="rendered-card-content"><p><b>Description:</b> Regularly planted cocoa, where individual trees can be easily distinguished.</p><p><b>Country:</b> Peru</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-8.966196,-75.381612" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-8.966196,-75.381612" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_76_100_m.webp" alt="Image for ID 76">
+                <div class="rendered-card-content"><p><b>Description:</b> Homogeneous cocoa landscape with a closed canopy and irregularly distributed tall shade trees.</p><p><b>Country:</b> Dominican Republic</p><p><b>Shade level:</b> High</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@19.344116,-70.291452" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/19.344116,-70.291452" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_82_100_m.webp" alt="Image for ID 82">
+                <div class="rendered-card-content"><p><b>Description:</b> Cocoa plantation in Peru with a closed canopy at the center. The adjacent plot appears more recently planted with an open canopy. Pastureland is visible to the east.</p><p><b>Country:</b> Peru</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-7.89793,-76.664261" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-7.89793,-76.664261" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_85_100_m.webp" alt="Image for ID 85">
+                <div class="rendered-card-content"><p><b>Description:</b> Cocoa plantation in Brazil intercropped with tall shade trees. Smaller trees with star-shaped canopies, likely papaya, are also present. This is supported by nearby geotagged photos available on Google Maps.</p><p><b>Country:</b> Peru</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-12.337406,-69.125379" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-12.337406,-69.125379" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_86_100_m.webp" alt="Image for ID 86">
+                <div class="rendered-card-content"><p><b>Description:</b> Cocoa plantation with small trees, likely clonal propagation. Grass cover remains visible. Across the road, an orchard possibly containing orange trees is present.</p><p><b>Country:</b> Peru</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-11.345626,-74.522976" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-11.345626,-74.522976" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_95_100_m.webp" alt="Image for ID 95">
+                <div class="rendered-card-content"><p><b>Description:</b> Cocoa plantation with an open canopy and visible bare soil. To the northwest are banana trees, followed by a recently deforested area, reflecting ongoing land-use change.</p><p><b>Country:</b> Peru</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-9.115666,-74.951066" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-9.115666,-74.951066" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_96_100_m.webp" alt="Image for ID 96">
+                <div class="rendered-card-content"><p><b>Description:</b> Cocoa plantation established in a cleared forest area. Pastureland lies to the south, with sparse trees and a visible water point.</p><p><b>Country:</b> Peru</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-9.114111,-74.948326" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-9.114111,-74.948326" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_97_100_m.webp" alt="Image for ID 97">
+                <div class="rendered-card-content"><p><b>Description:</b> Cocoa plantation with an open canopy and scattered shade trees. To the west, the landscape transitions to natural forest, then another cocoa plantation.</p><p><b>Country:</b> Peru</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-9.116491,-74.955265" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-9.116491,-74.955265" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_98_100_m.webp" alt="Image for ID 98">
+                <div class="rendered-card-content"><p><b>Description:</b> Cocoa plantation within degraded forest, with grass between trees indicating limited ground management. Historical satellite imagery on Google Earth shows gradual conversion from forest to agroforestry.</p><p><b>Country:</b> Peru</p><p><b>Shade level:</b> Medium</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-9.111743,-75.014537" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-9.111743,-75.014537" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_99_100_m.webp" alt="Image for ID 99">
+                <div class="rendered-card-content"><p><b>Description:</b> Newly planted cocoa in Peru, with a patch of natural forest to the north. In two adjacent plots, tree trunks scattered on the ground suggest recent forest clearing.</p><p><b>Country:</b> Peru</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Recently planted</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-8.919806,-74.952864" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-8.919806,-74.952864" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_101_100_m.webp" alt="Image for ID 101">
+                <div class="rendered-card-content"><p><b>Description:</b> Recently planted cocoa plantation in Sulawesi, with rice paddies visible to the north.</p><p><b>Country:</b> Indonesia</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Recently planted</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-4.488146,119.890861" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-4.488146,119.890861" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/place/4%C2%B029'22.4%22S+119%C2%B052'48.7%22E/@-4.4879534,119.8911421,3a,75y,237.55h,90t/data=!3m7!1e1!3m5!1srAEyAQ70a1GnRcp4vZbEYQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DrAEyAQ70a1GnRcp4vZbEYQ%26yaw%3D237.54826566706947!7i16384!8i8192!4m4!3m3!8m2!3d-4.48956!4d119.88018?hl=vi-VN&entry=ttu&g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_103_100_m.webp" alt="Image for ID 103">
+                <div class="rendered-card-content"><p><b>Description:</b> Region in Côte d’Ivoire with many full-sun cocoa plantations. A small natural forest patch lies to the west, and a wetland to the north.</p><p><b>Country:</b> Côte d'Ivoire</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@7.0519,-6.9513" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/7.0519,-6.9513" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_107_100_m.webp" alt="Image for ID 107">
+                <div class="rendered-card-content"><p><b>Description:</b> Cocoa plantation in Cameroon with tall shade trees. Palm plantations are present to the east.</p><p><b>Country:</b> Cameroon</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@4.6547,9.422582" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/4.6547,9.422582" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_120_100_m.webp" alt="Image for ID 120">
+                <div class="rendered-card-content"><p><b>Description:</b> Small cocoa plot located between farms. Behind it, the cocoa is intercropped with palm trees, while on the other side of the road a seasonal plot is visible.</p><p><b>Country:</b> Indonesia</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-5.260277,105.555177" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-5.260277,105.555177" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_124_100_m.webp" alt="Image for ID 124">
+                <div class="rendered-card-content"><p><b>Description:</b> On both sides of the road, similar cocoa plantations are intercropped with small shade trees. The plots to the west appeared as seasonal agriculture in 2022, but in the most recent Google Street View (2025) they appear as bushland.</p><p><b>Country:</b> Indonesia</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-3.139725,121.086157" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-3.139725,121.086157" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_125_100_m.webp" alt="Image for ID 125">
+                <div class="rendered-card-content"><p><b>Description:</b> Newly planted cocoa field with grass removed, leaving bare soil visible. In the neighboring field to the west, grasses are still present. The plots are in full sun but are surrounded by windbreak fields.</p><p><b>Country:</b> Indonesia</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Recently planted</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-3.139368,121.076703" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-3.139368,121.076703" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_143_100_m.webp" alt="Image for ID 143">
+                <div class="rendered-card-content"><p><b>Description:</b> A regularly planted cocoa farm with an open canopy and shade trees. Nearby, non-cocoa trees with star-shaped canopies can be observed to the east in between other unknown trees.</p><p><b>Country:</b> Tanzania</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-9.443036,33.965649" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-9.443036,33.965649" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_144_100_m.webp" alt="Image for ID 144">
+                <div class="rendered-card-content"><p><b>Description:</b> Cocoa farm in Tanzania. The center of the image is located in a regularly planted plot where individual trees can be easily counted. In contrast, the nearby plot has a fully closed canopy, making the planting pattern and tree count almost impossible to discern.</p><p><b>Country:</b> Tanzania</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-9.433963,33.976238" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-9.433963,33.976238" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_145_100_m.webp" alt="Image for ID 145">
+                <div class="rendered-card-content"><p><b>Description:</b> In this plot in Madagascar, the shaded cocoa trees can be distinguished by their lighter green color and smaller size compared to nearby trees. Some images of these trees can be found in the “Cananga Garden” entry on Google Maps. Near the farm marker, there are also non-cocoa trees with the same shade of green but noticeably taller.</p><p><b>Country:</b> Madagascar</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@-13.611335,48.427801" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-13.611335,48.427801" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>

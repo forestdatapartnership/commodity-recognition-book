@@ -1,0 +1,116 @@
+<html>
+<head>
+    <title>Commodity Book</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .filter-container {
+            padding: 16px 16px 8px 24px;
+            text-align: left;
+        }
+        .filter-container > label,
+        .filter-container > select {
+            font-weight: normal;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .filter-container select {
+            margin: 0 12px 4px 4px;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .card-count {
+            text-align: center;
+            padding: 8px;
+            color: #555;
+            background-color: #f0f0f0;
+        }
+        .card-count:empty {
+            display: none;
+        }
+        .rendered-card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+            padding: 16px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .rendered-card-content {
+            padding: 16px;
+        }
+        .rendered-card-content p {
+            margin: 0 0 8px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="commodity-book-interactive-table">
+        
+        <div id="visible-card-count" class="card-count"></div>
+        <div class="rendered-card-container">
+            
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_13_100_m.webp" alt="Image for ID 13">
+                <div class="rendered-card-content"><p><b>Description:</b> Flowering coffee. The white flowers are clearly visible. In Vietnam, plots are irrigated and flowering is triggered through management, thus the whole plot starts flowering at the same time, but not necessarily in synchronization with neighboring plots.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><b>Variety:</b> Robusta</p><p><a href="https://earth.google.com/web/search/@12.07459,107.676225" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/12.07459,107.676225" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_14_100_m.webp" alt="Image for ID 14">
+                <div class="rendered-card-content"><p><b>Description:</b> Flowering coffee. The white flowers are clearly visible. In Vietnam, plots are irrigated and flowering is triggered through management, thus the whole plot starts flowering at the same time, but not necessarily in synchronization with neighboring plots.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><b>Variety:</b> Robusta</p><p><a href="https://earth.google.com/web/search/@12.090638,107.641827" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/12.090638,107.641827" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_15_100_m.webp" alt="Image for ID 15">
+                <div class="rendered-card-content"><p><b>Description:</b> Robusta full-sun coffee with some intercrop. The plants are not pruned regularly and are much larger than what can typically be seen in Latin America. Coffee can be seen flowering in 2019.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><b>Variety:</b> Robusta</p><p><a href="https://earth.google.com/web/search/@11.769985,108.119095" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.769985,108.119095" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_92_100_m.webp" alt="Image for ID 92">
+                <div class="rendered-card-content"><p><b>Description:</b> Flowering coffee. The white flowers are clearly visible. In Vietnam, plots are irrigated and flowering is triggered through management, thus the whole plot starts flowering at the same time, but not necessarily in synchronization with neighboring plots.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><b>Variety:</b> Robusta</p><p><a href="https://earth.google.com/web/search/@11.647508,107.87193" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.647508,107.87193" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_94_100_m.webp" alt="Image for ID 94">
+                <div class="rendered-card-content"><p><b>Description:</b> Flowering coffee. The white flowers are clearly visible. In Vietnam, plots are irrigated and flowering is triggered through management, thus the whole plot starts flowering at the same time, but not necessarily in synchronization with neighboring plots.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><b>Variety:</b> Robusta</p><p><a href="https://earth.google.com/web/search/@13.934199,107.971821" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/13.934199,107.971821" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_97_100_m.webp" alt="Image for ID 97">
+                <div class="rendered-card-content"><p><b>Description:</b> Flowering coffee. The white flowers are clearly visible. In Vietnam, plots are irrigated and flowering is triggered through management, thus the whole plot starts flowering at the same time, but not necessarily in synchronization with neighboring plots.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><b>Variety:</b> Robusta</p><p><a href="https://earth.google.com/web/search/@13.148161,108.198048" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/13.148161,108.198048" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_99_100_m.webp" alt="Image for ID 99">
+                <div class="rendered-card-content"><p><b>Description:</b> Robusta coffee infrequently pruned with a moderate level of shade cover.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><b>Variety:</b> Robusta</p><p><a href="https://earth.google.com/web/search/@12.292289,107.588557" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/12.292289,107.588557" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>

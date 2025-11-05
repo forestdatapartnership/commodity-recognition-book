@@ -1,0 +1,616 @@
+<html>
+<head>
+    <title>Commodity Book</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .filter-container {
+            padding: 16px 16px 8px 24px;
+            text-align: left;
+        }
+        .filter-container > label,
+        .filter-container > select {
+            font-weight: normal;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .filter-container select {
+            margin: 0 12px 4px 4px;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .card-count {
+            text-align: center;
+            padding: 8px;
+            color: #555;
+            background-color: #f0f0f0;
+        }
+        .card-count:empty {
+            display: none;
+        }
+        .rendered-card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+            padding: 16px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .rendered-card-content {
+            padding: 16px;
+        }
+        .rendered-card-content p {
+            margin: 0 0 8px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="commodity-book-interactive-table">
+        
+        <div id="visible-card-count" class="card-count"></div>
+        <div class="rendered-card-container">
+            
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_1_100_m.webp" alt="Image for ID 1">
+                <div class="rendered-card-content"><p><b>Description:</b> Passion fruit with a typical grid structure. Historical imagery from 2021 shows that black pepper was previously growing on this plot.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/12.22063,107.514705" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/12.22063,107.514705" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_2_100_m.webp" alt="Image for ID 2">
+                <div class="rendered-card-content"><p><b>Description:</b> Black pepper, likely growing on living trees. Black pepper seems to be intercropped with coffee in the plots around the one at the center of the image.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/11.614478,108.160398" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.614478,108.160398" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_3_100_m.webp" alt="Image for ID 3">
+                <div class="rendered-card-content"><p><b>Description:</b> Tea plantations display similar patterns to cocoa plantations. However, tea is grown in uninterrupted rows which are often closer together than rows of cocoa trees.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/11.423159,107.834214" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.423159,107.834214" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_4_100_m.webp" alt="Image for ID 4">
+                <div class="rendered-card-content"><p><b>Description:</b> Tea plantations display similar patterns to cocoa plantations. In this image, one can see that the leaves are being harvested, which leaves the plantation with a lot of visible soil.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/11.578704,108.038542" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.578704,108.038542" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@11.5786318,108.0385662,3a,75y,111.01h,90t/data=!3m8!1e1!3m6!1sAF1QipObRso1CGL01XHiNNxzhZraglSSCKRDyig67wT9!2e10!3e11!6s%2F%2Flh5.ggpht.com%2Fp%2FAF1QipObRso1CGL01XHiNNxzhZraglSSCKRDyig67wT9%3Dw900-h600-k-no-pi0-ya319.0064641855695-ro0-fo100!7i8192!8i4096?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_5_100_m.webp" alt="Image for ID 5">
+                <div class="rendered-card-content"><p><b>Description:</b> Rubber plantation during the period in which leaves have fallen. One can see that the rows of trees are further apart than in cocoa plantations, and the trees are larger and taller.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/13.901967,108.07529" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/13.901967,108.07529" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_6_100_m.webp" alt="Image for ID 6">
+                <div class="rendered-card-content"><p><b>Description:</b> Rubber plantation during the period in which leaves have fallen. One can see that the rows of trees are further apart than in cocoa plantations, and the trees are larger and taller.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/13.958702,107.529859" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/13.958702,107.529859" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_7_100_m.webp" alt="Image for ID 7">
+                <div class="rendered-card-content"><p><b>Description:</b> Growing orchards. Orchards can be very similar to recently established cocoa plantations; however, the trees are typically further apart than in cocoa plantations.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/13.957925,107.518524" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/13.957925,107.518524" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_8_100_m.webp" alt="Image for ID 8">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation, likely acacia or eucalyptus, replanted  about three years before the image was taken. The canopy structure can look similar to cocoa, but one can evaluate the height of the trees based on the rest of the landscape. Furthermore, historical data shows the life cycle of timber plantations harvested every few years.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/12.713374,108.792937" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/12.713374,108.792937" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_9_100_m.webp" alt="Image for ID 9">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation. The canopy structure can look similar to cocoa, but one can evaluate the height of the trees based on the visible trunk, shadows, and the rest of the landscape. Height analysis, combined with time series analysis, can help identify such plantations.</p><p><b>Country:</b> Brazil</p><p><a href="https://earth.google.com/web/search/-19.596213,-52.899521" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-19.596213,-52.899521" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_10_100_m.webp" alt="Image for ID 10">
+                <div class="rendered-card-content"><p><b>Description:</b> Some perennial crops are grown on an annual basis, in this case cassava. The planting pattern can be very similar to cocoa, however the rows are closer together and the canopy is more homogenous. The use of time series can show the frequent harvest of the crop.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-5.059789,105.360334" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-5.059789,105.360334" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@-5.0595637,105.3603098,3a,60y,144.03h,77.45t/data=!3m7!1e1!3m5!1sqZ6D_VDuALtrJ9nzuXaGrw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D12.548131830114869%26panoid%3DqZ6D_VDuALtrJ9nzuXaGrw%26yaw%3D144.03467377240852!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_11_100_m.webp" alt="Image for ID 11">
+                <div class="rendered-card-content"><p><b>Description:</b> Coconut plantation diplaying the typical star canopy and large shadow.</p><p><b>Country:</b> Philippines</p><p><a href="https://earth.google.com/web/search/5.974651,121.136367" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/5.974651,121.136367" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_12_100_m.webp" alt="Image for ID 12">
+                <div class="rendered-card-content"><p><b>Description:</b> Seasonal agriculture can display patterns that are similar to cocoa plantations and in some cases can also be grown with shade trees within the plot. However, here one can identify rows that are close to each other and an homogenous canopy, which are indicative of seasonal agriculture..</p><p><b>Country:</b> El Salvador</p><p><a href="https://earth.google.com/web/search/14.288062,-89.409188" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/14.288062,-89.409188" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@14.2879088,-89.4093389,3a,43.9y,63.5h,82.32t/data=!3m7!1e1!3m5!1sAF1QipPROl6TlZB1sJje6TTcEwaLpvrb7W7vpcb4ZLLR!2e10!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPROl6TlZB1sJje6TTcEwaLpvrb7W7vpcb4ZLLR%3Dw900-h600-k-no-pi7.678503659807447-ya70.44704878640675-ro0-fo100!7i7680!8i3840?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_13_100_m.webp" alt="Image for ID 13">
+                <div class="rendered-card-content"><p><b>Description:</b> Banana or plantain plantation. These can look similar to cocoa plantations, however, the star-like large leaves create a more "messy" aspect of the canopy.</p><p><b>Country:</b> Ecuador</p><p><a href="https://earth.google.com/web/search/-1.983305,-79.563098" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-1.983305,-79.563098" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@-1.9831265,-79.5628791,3a,75y,176.71h,90.61t/data=!3m7!1e1!3m5!1sD3zQH4-JSllVVfNOxqvEdw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-0.6083505273706749%26panoid%3DD3zQH4-JSllVVfNOxqvEdw%26yaw%3D176.71346203706622!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_14_100_m.webp" alt="Image for ID 14">
+                <div class="rendered-card-content"><p><b>Description:</b> Orchards with small trees that can resemble cocoa. However, the trees are planted further appart.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/4.059073,-75.041427" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/4.059073,-75.041427" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@4.0587063,-75.0418143,3a,75y,40.22h,86.58t/data=!3m7!1e1!3m5!1sY9QXGgtGwUno_UuNuMeJFQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D3.4190456631177426%26panoid%3DY9QXGgtGwUno_UuNuMeJFQ%26yaw%3D40.223682876893804!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_15_100_m.webp" alt="Image for ID 15">
+                <div class="rendered-card-content"><p><b>Description:</b> Fallow lands can have regrowth of secondary bush-like vegetation that can resemble cocoa. However, these bushes do not follow an organized pattern such as the one seen in cocoa plantations</p><p><b>Country:</b> Peru</p><p><a href="https://earth.google.com/web/search/-9.774922,-75.008076" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-9.774922,-75.008076" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@-9.7752459,-75.0083024,3a,60y,114.76h,89.88t/data=!3m7!1e1!3m5!1sh6SWPbY3LmeQeUbHbfzmkg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0.11652965855100206%26panoid%3Dh6SWPbY3LmeQeUbHbfzmkg%26yaw%3D114.76270278767792!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_16_100_m.webp" alt="Image for ID 16">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation. The canopy structure can look similar to cocoa, but one can evaluate the height of the trees based on the visible trunk, shadows, and the rest of the landscape. Height analysis, combined with time series analysis, can help identify such plantations.</p><p><b>Country:</b> Chile</p><p><a href="https://earth.google.com/web/search/-38.023615,-72.814413" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-38.023615,-72.814413" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@-38.0238324,-72.8147665,3a,60y,82.92h,98.51t/data=!3m7!1e1!3m5!1sGMzPOKXMu6zDEJPHJBpOCg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-8.512381115423523%26panoid%3DGMzPOKXMu6zDEJPHJBpOCg%26yaw%3D82.91537729244826!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_17_100_m.webp" alt="Image for ID 17">
+                <div class="rendered-card-content"><p><b>Description:</b> Fallow lands can have regrowth of secondary bush-like vegetation that can resemble cocoa. However, these bushes do not follow an organized pattern such as the one seen in cocoa plantations</p><p><b>Country:</b> Brazil</p><p><a href="https://earth.google.com/web/search/-31.504881,-52.911639" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-31.504881,-52.911639" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@-31.505101,-52.9116945,3a,60y,8.04h,85.24t/data=!3m7!1e1!3m5!1sxCNkKypFYUwXMi9yzyZMpQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D4.757511278696384%26panoid%3DxCNkKypFYUwXMi9yzyZMpQ%26yaw%3D8.038079971323265!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_18_100_m.webp" alt="Image for ID 18">
+                <div class="rendered-card-content"><p><b>Description:</b> Post harvest tea plantation. Although they look a lot like cocoa, tea plantations often display continuous rows of trees that are closer together than the cocoa ones. Post harvest tea looks uniformly brown, which is not common for cocoa.</p><p><b>Country:</b> China</p><p><a href="https://earth.google.com/web/search/22.748016,100.930682" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/22.748016,100.930682" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_19_100_m.webp" alt="Image for ID 19">
+                <div class="rendered-card-content"><p><b>Description:</b> Tea plantation with shade trees. Although they look a lot like cocoa, tea plantations often display continuous rows of trees that are closer together than the cocoa ones.</p><p><b>Country:</b> China</p><p><a href="https://earth.google.com/web/search/22.184713,99.372987" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/22.184713,99.372987" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_20_100_m.webp" alt="Image for ID 20">
+                <div class="rendered-card-content"><p><b>Description:</b> Recently planted rubber plantation. Rubber plantations can look like cocoa plantations, but trees are closer together and taller than cocoa. Furthermore, rubber is a deciduous tree and will lose its leaves once during the year.</p><p><b>Country:</b> Thailand</p><p><a href="https://earth.google.com/web/search/12.978257,101.477221" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/12.978257,101.477221" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@12.9779694,101.4777305,3a,60y,305.09h,83.12t/data=!3m7!1e1!3m5!1spPIofPBiUaf0Eup_RgT6oA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D6.879071761499901%26panoid%3DpPIofPBiUaf0Eup_RgT6oA%26yaw%3D305.08941244709223!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_21_100_m.webp" alt="Image for ID 21">
+                <div class="rendered-card-content"><p><b>Description:</b> Custard apple plantations can easily be missclassified as cocoa. Custard apple trees are small trees, often grown on steep terrain.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/21.629235,106.3643" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/21.629235,106.3643" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_22_100_m.webp" alt="Image for ID 22">
+                <div class="rendered-card-content"><p><b>Description:</b> Dragon fruits grow on artificial poles that are further apart than black pepper or cocoa trees. These poles are often organized in a very regular grid.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/11.112175,108.164178" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.112175,108.164178" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@11.1120319,108.1646729,3a,39.2y,339.18h,64.14t/data=!3m8!1e1!3m6!1sAF1QipPu8NFl8MqUd2ou1Sgu9zvGaU18yBH0MUAXSwam!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPu8NFl8MqUd2ou1Sgu9zvGaU18yBH0MUAXSwam%3Dw900-h600-k-no-pi25.861382926793624-ya339.1830995200408-ro0-fo100!7i8192!8i4096?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_23_100_m.webp" alt="Image for ID 23">
+                <div class="rendered-card-content"><p><b>Description:</b> Dragon fruits grow on artificial poles that are further apart than black pepper or cocoa trees. These poles are often organized in a very regular grid.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/10.990781,108.103439" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/10.990781,108.103439" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@10.9908236,108.1034078,265a,35y/data=!3m8!1e1!3m6!1sAF1QipPkkXbrIs3KGOh_wYzAtNIgVwqSKZ3FcnzAhm83!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPkkXbrIs3KGOh_wYzAtNIgVwqSKZ3FcnzAhm83%3Dw900-h600-k-no-pi90-ya355-ro0-fo100!7i8704!8i4352?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_24_100_m.webp" alt="Image for ID 24">
+                <div class="rendered-card-content"><p><b>Description:</b> Some perennial crops are grown on an annual basis, in this case cassava. The planting pattern can be very similar to cocoa, however the rows are closer together and the canopy is more homogenous. The use of time series can show the frequent harvest of the crop.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-5.190842,105.350414" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-5.190842,105.350414" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@-5.1907297,105.3503769,3a,60y,155.79h,80.47t/data=!3m7!1e1!3m5!1s9PhlJahS0d8jb3n_OO8Sig!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D9.53348942609685%26panoid%3D9PhlJahS0d8jb3n_OO8Sig%26yaw%3D155.78742751844052!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_25_100_m.webp" alt="Image for ID 25">
+                <div class="rendered-card-content"><p><b>Description:</b> Seasonal agriculture, rice in this case, can display canopy similar to cocoa. However, the planting pattern is much tighter and the canopy is often much more homogenous than would be typical of cocoa plantations. Time-series analysis can highlight the annual life cycle of such crops.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-5.16366,105.310626" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-5.16366,105.310626" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@-5.1638353,105.3105937,3a,60y,90t/data=!3m7!1e1!3m5!1sYnG_C1sTSQmR3Zh3AtWdtQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DYnG_C1sTSQmR3Zh3AtWdtQ%26yaw%3D0!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_26_100_m.webp" alt="Image for ID 26">
+                <div class="rendered-card-content"><p><b>Description:</b> A palm plantation in its early stage can resemble cocoa recently established cocoa plantations. Time series analysis and the distance between trees can help identify these as palm.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-5.592647,104.335994" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-5.592647,104.335994" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@-5.5930213,104.335959,3a,60y,90t/data=!3m7!1e1!3m5!1sycHYORjP2VGKZQCbo43vwQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DycHYORjP2VGKZQCbo43vwQ%26yaw%3D0!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_27_100_m.webp" alt="Image for ID 27">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation. The canopy structure can look similar to cocoa, but one can evaluate the height of the trees based on the visible trunk, shadows, and the rest of the landscape. Height analysis, combined with time series analysis, can help identify such plantations.</p><p><b>Country:</b> Uganda</p><p><a href="https://earth.google.com/web/search/1.901496,32.560823" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/1.901496,32.560823" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_28_100_m.webp" alt="Image for ID 28">
+                <div class="rendered-card-content"><p><b>Description:</b> Rubber plantations can resemble cocoa. One can evaluate the size of the crowns and the height of the plantation (based on shadows) and identify the deciduous phenology to identify rubber.</p><p><b>Country:</b> Côte d'Ivoire</p><p><a href="https://earth.google.com/web/search/5.430253,-5.351256" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/5.430253,-5.351256" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_29_100_m.webp" alt="Image for ID 29">
+                <div class="rendered-card-content"><p><b>Description:</b> Pine plantations look similar to rubber, but the canopy is larger and doesn't have the rounded pattern typical of rubber trees. Furthermore, pine trees' foliage sometimes turns red.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/11.699954,107.946718" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.699954,107.946718" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_30_100_m.webp" alt="Image for ID 30">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case durian. Can be misclassified as cocoa in its early stage, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/11.430874,107.531946" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.430874,107.531946" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@11.4308568,107.5317996,3a,75y,129.49h,90t/data=!3m8!1e1!3m6!1sAF1QipOQkW595ggUFSpfwQT6Y751kChwGEgL9uSVuJhw!2e10!3e11!6shttps:%2F% " target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_31_100_m.webp" alt="Image for ID 31">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case avocado. Can be misclassified as cocoa in its early stage, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/11.506231,107.51291" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.506231,107.51291" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@11.5060273,107.513041,3a,75y,301.48h,90t/data=!3m8!1e1!3m6!1sAF1QipMIQmxsJa_v_R1m3ooZBYMjrHHQLS5rdoJQSAct!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMIQmxsJa_v_R1m3ooZBYMjrHHQLS5rdoJQSAct%3Dw900-h600-k-no-pi0-ya198.48496181341852-ro0-fo100!7i11264!8i5632?hl=vi-VN&entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoJLDEwMjExMjMzSAFQAw%3D%3D " target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_32_100_m.webp" alt="Image for ID 32">
+                <div class="rendered-card-content"><p><b>Description:</b> Cashew plantation. The trees have a large, irregular crown and are larger than cocoa trees. In this case, coffee is being grown under the shade cover of the cashew trees.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/11.920133,107.433425" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.920133,107.433425" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_33_100_m.webp" alt="Image for ID 33">
+                <div class="rendered-card-content"><p><b>Description:</b> Some grassland can present regular linear patterns that could be misidentified as cocoa. However, grassland can typically be identified based on the lack of shadows.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/6.363612,-75.464171" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.363612,-75.464171" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@6.3633349,-75.4642804,3a,60y,24.97h,76.62t/data=!3m7!1e1!3m5!1sURbWELpIKV6aDda0JCrvig!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D13.381672159914103%26panoid%3DURbWELpIKV6aDda0JCrvig%26yaw%3D24.97050532872509!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_34_100_m.webp" alt="Image for ID 34">
+                <div class="rendered-card-content"><p><b>Description:</b> Recently planted orchard. Can be misclassified as cocoa in its early stage, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/6.366591,-75.480254" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.366591,-75.480254" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@6.3664483,-75.4800329,3a,60y,303.71h,106.83t/data=!3m7!1e1!3m5!1sNoJiPaEOMHFOUdj2-Qjkzg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-16.834036696898877%26panoid%3DNoJiPaEOMHFOUdj2-Qjkzg%26yaw%3D303.71324197016054!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_35_100_m.webp" alt="Image for ID 35">
+                <div class="rendered-card-content"><p><b>Description:</b> Bushland can sometime present dense bushes that can be misidentified as cocoa plantations. However, these areas often lack the regularity of cocoa plantations.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/2.182451,-76.873462" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/2.182451,-76.873462" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@2.1824311,-76.8732786,3a,60y,302.25h,127.34t/data=!3m7!1e1!3m5!1s99bu3jGpvov3eQuwffpbHA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-37.34462747258827%26panoid%3D99bu3jGpvov3eQuwffpbHA%26yaw%3D302.24547910721617!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_36_100_m.webp" alt="Image for ID 36">
+                <div class="rendered-card-content"><p><b>Description:</b> Some grassland can present regular linear patterns that could be misidentified as cocoa. However, grassland can typically be identified based on the lack of shadows.</p><p><b>Country:</b> Ecuador</p><p><a href="https://earth.google.com/web/search/-1.350756,-78.812274" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-1.350756,-78.812274" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@2.1824311,-76.8732786,3a,60y,302.25h,127.34t/data=!3m7!1e1!3m5!1s99bu3jGpvov3eQuwffpbHA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-37.34462747258827%26panoid%3D99bu3jGpvov3eQuwffpbHA%26yaw%3D302.24547910721617!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_37_100_m.webp" alt="Image for ID 37">
+                <div class="rendered-card-content"><p><b>Description:</b> Bushland can sometime present dense secondary vegetation that can be misidentified as cocoa plantations. However, these areas often lack the regularity of cocoa plantations.</p><p><b>Country:</b> Ecuador</p><p><a href="https://earth.google.com/web/search/-1.326829,-78.755105" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-1.326829,-78.755105" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@-1.3269711,-78.7548527,3a,60y,288.55h,77.19t/data=!3m7!1e1!3m5!1s6hL6Z0Neidzjt0JG4YOt4A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D12.806928273706532%26panoid%3D6hL6Z0Neidzjt0JG4YOt4A%26yaw%3D288.5537604398816!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_38_100_m.webp" alt="Image for ID 38">
+                <div class="rendered-card-content"><p><b>Description:</b> Some grassland can present regular linear patterns that could be misidentified as cocoa. However, grassland can typically be identified based on the lack of shadows.</p><p><b>Country:</b> Ecuador</p><p><a href="https://earth.google.com/web/search/-1.324148,-78.669937" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-1.324148,-78.669937" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@-1.3242901,-78.6698019,3a,60y,338.76h,76.02t/data=!3m7!1e1!3m5!1shlLLkwa3hO_KavTz_LSkTQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D13.981944800077443%26panoid%3DhlLLkwa3hO_KavTz_LSkTQ%26yaw%3D338.76282110302833!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_39_100_m.webp" alt="Image for ID 39">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantations at an early stage can appear very similar to young cocoa plantations. Some clear indicators can be the distance between trees and the use of historical data to better understand the crop dynamic.</p><p><b>Country:</b> Brazil</p><p><a href="https://earth.google.com/web/search/0.706287,-51.421028" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/0.706287,-51.421028" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_40_100_m.webp" alt="Image for ID 40">
+                <div class="rendered-card-content"><p><b>Description:</b> Bushland in arid landscapes can have patterns that can be misidentified as cocoa plantations. However, these areas often lack the regularity of cocoa plantations.</p><p><b>Country:</b> Senegal</p><p><a href="https://earth.google.com/web/search/14.109954,-15.718449" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/14.109954,-15.718449" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_41_100_m.webp" alt="Image for ID 41">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard. Can be misclassified as cocoa in its early stage, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Senegal</p><p><a href="https://earth.google.com/web/search/12.856322,-14.989337" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/12.856322,-14.989337" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_42_100_m.webp" alt="Image for ID 42">
+                <div class="rendered-card-content"><p><b>Description:</b> Seasonal agriculture can display canopy similar to cocoa. However, the planting pattern is much tighter and the canopy is often much more homogenous than would be typical of cocoa plantations. Time-series analysis can highlight the annual life cycle of such crops.</p><p><b>Country:</b> Senegal</p><p><a href="https://earth.google.com/web/search/12.850702,-15.027808" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/12.850702,-15.027808" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_43_100_m.webp" alt="Image for ID 43">
+                <div class="rendered-card-content"><p><b>Description:</b> Very mixed plot of coconut and palm can resemble cocoa with agroforestry. It is sometimes difficult to evaluate whether cocoa is also included in such systems.</p><p><b>Country:</b> Ghana</p><p><a href="https://earth.google.com/web/search/6.850519,-2.463861" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.850519,-2.463861" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@6.8507443,-2.4640203,3a,48.9y,133.04h,88.27t/data=!3m7!1e1!3m5!1sgJobvO6e2UAXRAOfjP3HEA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D1.7310929787400937%26panoid%3DgJobvO6e2UAXRAOfjP3HEA%26yaw%3D133.04194666063765!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_44_100_m.webp" alt="Image for ID 44">
+                <div class="rendered-card-content"><p><b>Description:</b> Rubber plantations can resemble cocoa. One can evaluate the size of the crowns and the height of the plantation (based on shadows) and identify the deciduous phenology to identify rubber.</p><p><b>Country:</b> Côte d'Ivoire</p><p><a href="https://earth.google.com/web/search/5.345219,-2.92208" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/5.345219,-2.92208" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_45_100_m.webp" alt="Image for ID 45">
+                <div class="rendered-card-content"><p><b>Description:</b> Highly degraded forest with secondary vegetation growing under a layer of taller trees. It can be difficult to differentiate these systems from cocoa with agroforestry. The lack of regular patterns of the secondary vegetation and time series analysis can help identify such forests.</p><p><b>Country:</b> Ghana</p><p><a href="https://earth.google.com/web/search/6.67633,-2.244791" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.67633,-2.244791" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_46_100_m.webp" alt="Image for ID 46">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case mango. Can be misclassified as cocoa, but the size of the trees and the distance between trees, typically more than the typical 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Ghana</p><p><a href="https://earth.google.com/web/search/6.826169,-1.746124" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.826169,-1.746124" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_47_100_m.webp" alt="Image for ID 47">
+                <div class="rendered-card-content"><p><b>Description:</b> In some cases, seasonal agriculture can be grown with shade trees within or around the plot, which can be similar to agroforestry. However, the planting pattern is much tighter and the canopy is often much more homogenous. Time-series analysis can easily highlight the annual life cycle of such crops.</p><p><b>Country:</b> Kenya</p><p><a href="https://earth.google.com/web/search/-1.195833,37.370565" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-1.195833,37.370565" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_48_100_m.webp" alt="Image for ID 48">
+                <div class="rendered-card-content"><p><b>Description:</b> Pine plantations.  The canopy structure can look similar to cocoa but one can evaluate the height of the trees based on the visible trunk, shadows and the rest of the landscape together with time series analysis to identify such plantations.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/11.623442,108.366651" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.623442,108.366651" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_49_100_m.webp" alt="Image for ID 49">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation. The canopy structure can look similar to cocoa, but one can evaluate the height of the trees based on the visible trunk, shadows, and the rest of the landscape. Height analysis, combined with time series analysis, can help identify such plantations.</p><p><b>Country:</b> Brazil</p><p><a href="https://earth.google.com/web/search/-23.9274,-50.175004" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-23.9274,-50.175004" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_50_100_m.webp" alt="Image for ID 50">
+                <div class="rendered-card-content"><p><b>Description:</b> Rubber plantations can resemble cocoa. One can evaluate the size of the crowns and the height of the plantation (based on shadows) and identify the deciduous phenology to identify rubber.</p><p><b>Country:</b> Côte d'Ivoire</p><p><a href="https://earth.google.com/web/search/5.465634,-3.249079" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/5.465634,-3.249079" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_51_100_m.webp" alt="Image for ID 51">
+                <div class="rendered-card-content"><p><b>Description:</b> Plantain plantation. Plantain can look similar to cocoa; however, the large star-like leaves create a more "messy" canopy in satellite imagery.</p><p><b>Country:</b> Ghana</p><p><a href="https://earth.google.com/web/search/6.639866,-2.264487" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.639866,-2.264487" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_52_100_m.webp" alt="Image for ID 52">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation, in this case eucalyptus. During its growing stage, the plantation can be very similar to recently established cocoa. The distance between rows of trees and the use of time series analysis can help identify such plantations.</p><p><b>Country:</b> Peru</p><p><a href="https://earth.google.com/web/search/-8.62842,-74.97821" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-8.62842,-74.97821" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_53_100_m.webp" alt="Image for ID 53">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case probably citrus fruits. Can be misclassified as cocoa, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, the well organized rows of trees and the shape of the tree crowns are usually a clear indicators of such plantations.</p><p><b>Country:</b> Peru</p><p><a href="https://earth.google.com/web/search/-8.45378,-74.884479" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-8.45378,-74.884479" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_54_100_m.webp" alt="Image for ID 54">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case probably citrus fruits. Can be misclassified as cocoa, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, the well organized rows of trees and the shape of the tree crowns are usually a clear indicators of such plantations.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/5.920817,-75.824274" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/5.920817,-75.824274" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_55_100_m.webp" alt="Image for ID 55">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard. Can be misclassified as cocoa, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/3.674333,-76.587111" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/3.674333,-76.587111" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_56_100_m.webp" alt="Image for ID 56">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard. Such system can be misclassified as cocoa, but the distance between trees, typically 7m instead of 2m - 4m for cocoa and the size of the tree crown are usually a clear indicators of such plantations.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/4.057309,-73.466851" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/4.057309,-73.466851" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_57_100_m.webp" alt="Image for ID 57">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation, in this case probably eucalyptus. The canopy structure can look similar to cocoa, but one can evaluate the height of the trees based on the visible trunk, shadows and the rest of the landscape. Height analysis, together with time series analysis, can help identify such plantations.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/3.845588,-76.508285" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/3.845588,-76.508285" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_58_100_m.webp" alt="Image for ID 58">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case probably citrics fruits. Can be misclassified as cocoa in its early stage, but distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/4.051708,-73.265835" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/4.051708,-73.265835" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_59_100_m.webp" alt="Image for ID 59">
+                <div class="rendered-card-content"><p><b>Description:</b> Plantain or banana plantation. These can look similar to cocoa plantations; however, the large, star-like leaves create a "messier" appearance in satellite imagery.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/9.80101,-73.602087" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/9.80101,-73.602087" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_60_100_m.webp" alt="Image for ID 60">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case mango. Can be misclassified as cocoa , but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/4.15308,-74.928875" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/4.15308,-74.928875" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@4.1530885,-74.9304121,3a,75y,47.07h,82.89t/data=!3m7!1e1!3m5!1sx9dBJ1Ixj1RyO9JtHkVgAg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D7.109761673129952%26panoid%3Dx9dBJ1Ixj1RyO9JtHkVgAg%26yaw%3D47.07066308923869!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_61_100_m.webp" alt="Image for ID 61">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case mango. Can be misclassified as cocoa, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/4.15348,-74.915954" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/4.15348,-74.915954" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/fbjJjcoLzcV5oX5J6" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_62_100_m.webp" alt="Image for ID 62">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case mango. Can be misclassified as cocoa, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/4.162428,-74.94338" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/4.162428,-74.94338" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/miX5JJGosfqmhVy76" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_63_100_m.webp" alt="Image for ID 63">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation, in this case probably eucalyptus. The canopy structure can look similar to recently established cocoa, but one can evaluate the height of the trees based on the visible trunk, shadows and the rest of the landscape. Height analysis, together with time series analysis, can help identify such plantations.</p><p><b>Country:</b> Peru</p><p><a href="https://earth.google.com/web/search/-8.596645,-74.924588" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-8.596645,-74.924588" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/26qphp4xGT8kTwkW9" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_64_100_m.webp" alt="Image for ID 64">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation, in this case probably eucalyptus. The canopy structure can look similar to recently established cocoa, but one can evaluate the height of the trees based on the visible trunk, shadows and the rest of the landscape. Height analysis, together with time series analysis, can help identify such plantations.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/4.120805,-76.30056" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/4.120805,-76.30056" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/vtyN4tYqwKDSanC9A" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_65_100_m.webp" alt="Image for ID 65">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation, in this case probably eucalyptus. The canopy structure can look similar to cocoa, but one can evaluate the height of the trees based on the visible trunk, the distance between the trees, shadows and the rest of the landscape. Height analysis, together with time series analysis, can help identify such plantations.</p><p><b>Country:</b> Peru</p><p><a href="https://earth.google.com/web/search/-8.51075,-74.852223" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-8.51075,-74.852223" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/Hs1toarmCrB2AA6T8" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_66_100_m.webp" alt="Image for ID 66">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation. The canopy structure can look similar to cocoa, but one can evaluate the height of the trees based on the visible trunk, shadows, and the rest of the landscape. Height analysis, combined with time series analysis, can help identify such plantations.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/8.296469,-76.599199" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/8.296469,-76.599199" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_67_100_m.webp" alt="Image for ID 67">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case jocote. Can be misclassified as cocoa, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> El Salvador</p><p><a href="https://earth.google.com/web/search/14.037014,-89.797958" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/14.037014,-89.797958" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_71_100_m.webp" alt="Image for ID 71">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case mango. Can be misclassified as cocoa, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Ecuador</p><p><a href="https://earth.google.com/web/search/-2.326342,-80.209304" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-2.326342,-80.209304" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_72_100_m.webp" alt="Image for ID 72">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case probably citrus fruits. Can be misclassified as cocoa, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Peru</p><p><a href="https://earth.google.com/web/search/-11.350284,-74.520802" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-11.350284,-74.520802" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_73_100_m.webp" alt="Image for ID 73">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case probably citrus fruits. Can be misclassified as cocoa, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Peru</p><p><a href="https://earth.google.com/web/search/-11.346814,-74.523305" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-11.346814,-74.523305" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_74_100_m.webp" alt="Image for ID 74">
+                <div class="rendered-card-content"><p><b>Description:</b> Plantain or banana plantation. These can look similar to cocoa plantations; however, the large, star-like leaves create a "messier" appearance in satellite imagery.</p><p><b>Country:</b> Ecuador</p><p><a href="https://earth.google.com/web/search/-1.535518,-79.775164" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-1.535518,-79.775164" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_75_100_m.webp" alt="Image for ID 75">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case probably citrus fruits. Can be misclassified as cocoa, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Peru</p><p><a href="https://earth.google.com/web/search/-7.174251,-76.682035" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-7.174251,-76.682035" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_76_100_m.webp" alt="Image for ID 76">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case probably citrus fruits. Can be misclassified as cocoa, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Peru</p><p><a href="https://earth.google.com/web/search/-7.187194,-76.697036" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-7.187194,-76.697036" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_77_100_m.webp" alt="Image for ID 77">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case probably citrus fruits. Can be misclassified as cocoa, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/4.694969,-75.826778" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/4.694969,-75.826778" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_78_100_m.webp" alt="Image for ID 78">
+                <div class="rendered-card-content"><p><b>Description:</b> Papaya plantation. Papaya can easily be confused with cocoa; however, the color of the leaves is a lighter green than cocoa, and the tree is slightly taller, which often results in a longer shadow. </p><p><b>Country:</b> Peru</p><p><a href="https://earth.google.com/web/search/-5.792821,-76.18691" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-5.792821,-76.18691" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_79_100_m.webp" alt="Image for ID 79">
+                <div class="rendered-card-content"><p><b>Description:</b> Papaya plantation. Papaya can easily be confused with cocoa; however, the color of the leaves is a lighter green than cocoa, and the tree is slightly taller, which often results in a longer shadow. </p><p><b>Country:</b> Peru</p><p><a href="https://earth.google.com/web/search/-5.790642,-76.19037" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-5.790642,-76.19037" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_80_100_m.webp" alt="Image for ID 80">
+                <div class="rendered-card-content"><p><b>Description:</b> Cashew plantation.  The tree canopy is broad and looks quite similar to cocoa, but the spacing between the trees is loose, forming an open canopy.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/10.935476,107.352258" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/10.935476,107.352258" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_81_100_m.webp" alt="Image for ID 81">
+                <div class="rendered-card-content"><p><b>Description:</b> Rose apple is grown under mesh netting to prevent fruit flies from damaging the fruit, so a faint white mesh can typically be seen in satellite imagery.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/10.255804,105.565131" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/10.255804,105.565131" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/place/Qu%C3%A1n+C%C6%A1m+Xe+T%E1%BA%A3i/@10.2556973,105.5649704,3a,75y,179.75h,96.47t/data=!3m8!1e1!3m6!1sCIHM0ogKEICAgICCyJuM0AE!2e10!3e11!6shttps:%2F%2Flh3.googleusercontent.com%2Fgpms-cs-s%2FAB8u6HYyoMHooUkIH3G-TU0SuU3UUtSnmVhFQHGeZQk9a-z8HU2z4lBk_75zuIw_sczClQJiP2nKPDcxpMLY8wecS2ADVQBmFEJCTGGM1Vsutk50-yNRezCEVeYTunK5NmY0s5QRXBfK%3Dw900-h600-k-no-pi-6.473905611090117-ya204.7465145328824-ro0-fo100!7i8704!8i4352!4m12!1m5!3m4!2zMTDCsDA0JzQyLjIiTiAxMDXCsDQwJzQwLjYiRQ!8m2!3d10.0783889!4d105.6779444!3m5!1s0x31a05fb5daeff565:0xad2a5356ab1c732b!8m2!3d9.8161984!4d105.8305151!16s%2Fg%2F11fhs_mfsm?hl=vi-VN&entry=ttu&g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_82_100_m.webp" alt="Image for ID 82">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case jackfruit. Can be misclassified as cocoa, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/11.290003,107.34515" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.290003,107.34515" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/place/11%C2%B018'08.0%22N+107%C2%B020'47.4%22E/@11.289932,107.3446196,3a,75y,283.78h,90t/data=!3m8!1e1!3m6!1sCIHM0ogKEICAgIDqjdfD0AE!2e10!3e11!6shttps:%2F%2Flh3.googleusercontent.com%2Fgpms-cs-s%2FAB8u6Hbn2-wPsickLg09q0sQOkka5T0jO9mgJxOriwnvc2kprtC_kBNOGnWZAGZaZ1payLhDJs_hrvGqocGMwE9F62Asppk5NJE3C0fdkX5ZGylat-eg2JyGLzvl0CTetGeVgAC2JMsLXQ%3Dw900-h600-k-no-pi0-ya174.77507232133814-ro0-fo100!7i10240!8i5120!4m4!3m3!8m2!3d11.3022324!4d107.3465091?hl=vi-VN&entry=ttu&g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_83_100_m.webp" alt="Image for ID 83">
+                <div class="rendered-card-content"><p><b>Description:</b> Coconut plantation displaying the typical star-shaped canopy and large shadow.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-4.259081,121.88297" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-4.259081,121.88297" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_84_100_m.webp" alt="Image for ID 84">
+                <div class="rendered-card-content"><p><b>Description:</b> Oil palm plantation displaying the typical star-shaped canopy and large shadow.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-4.321842,121.901623" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-4.321842,121.901623" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_85_100_m.webp" alt="Image for ID 85">
+                <div class="rendered-card-content"><p><b>Description:</b> Oil palm plantation displaying the typical star-shaped canopy and large shadow.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-4.572816,119.964112" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-4.572816,119.964112" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_87_100_m.webp" alt="Image for ID 87">
+                <div class="rendered-card-content"><p><b>Description:</b> Seasonal agriculture, in this case maize, can display patterns than resemble cocoa plantations, and in some cases can be grown with shade trees within the plot. However, one can identify rows that are closer to each other and a more homogenous canopy than would be typical of cocoa plantations.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-4.488028,120.012588" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-4.488028,120.012588" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/place/4%C2%B029'13.2%22S+119%C2%B053'12.1%22E/@-4.4879352,120.0123628,3a,75y,122.63h,90t/data=!3m7!1e1!3m5!1sO_ZRoixN8mB7UNyoXYEf4g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DO_ZRoixN8mB7UNyoXYEf4g%26yaw%3D122.62972280373474!7i16384!8i8192!4m4!3m3!8m2!3d-4.4870055!4d119.8866968?hl=vi-VN&entry=ttu&g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_88_100_m.webp" alt="Image for ID 88">
+                <div class="rendered-card-content"><p><b>Description:</b> Dragon fruits grow on artificial poles that are further apart than black pepper or cocoa trees. These poles are often organized in a very regular grid.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-4.377504,120.088451" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-4.377504,120.088451" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/place/4%C2%B029'13.2%22S+119%C2%B053'12.1%22E/@-4.3774784,120.0886203,3a,75y,225.04h,73.35t/data=!3m7!1e1!3m5!1sIg8lTMgMGlKGOkyBcMDDNA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D16.64643227665229%26panoid%3DIg8lTMgMGlKGOkyBcMDDNA%26yaw%3D225.04075468001372!7i16384!8i8192!4m4!3m3!8m2!3d-4.4870055!4d119.8866968?hl=vi-VN&entry=ttu&g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_89_100_m.webp" alt="Image for ID 89">
+                <div class="rendered-card-content"><p><b>Description:</b> Dragon fruits grow on artificial poles that are further apart than black pepper or cocoa trees. These poles are often organized in a very regular grid.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-4.365351,120.070028" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-4.365351,120.070028" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/place/4%C2%B029'13.2%22S+119%C2%B053'12.1%22E/@-4.365587,120.0699485,3a,75y,25.89h,75.05t/data=!3m7!1e1!3m5!1smXxSelGKIxK2WF1oyLakbw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D14.947890546656467%26panoid%3DmXxSelGKIxK2WF1oyLakbw%26yaw%3D25.88746426555401!7i16384!8i8192!4m4!3m3!8m2!3d-4.4870055!4d119.8866968?hl=vi-VN&entry=ttu&g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_90_100_m.webp" alt="Image for ID 90">
+                <div class="rendered-card-content"><p><b>Description:</b> Coconut plantation displaying the typical star-shaped canopy and large shadow.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-4.484518,119.904883" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-4.484518,119.904883" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/place/4%C2%B029'22.4%22S+119%C2%B052'48.7%22E/@-4.4842295,119.9049115,3a,75y,255.88h,90t/data=!3m7!1e1!3m5!1sJyrwAqamvj3dnofX48ODWA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DJyrwAqamvj3dnofX48ODWA%26yaw%3D255.88136288873386!7i16384!8i8192!4m4!3m3!8m2!3d-4.48956!4d119.88018?hl=vi-VN&entry=ttu&g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_91_100_m.webp" alt="Image for ID 91">
+                <div class="rendered-card-content"><p><b>Description:</b> Seasonal agriculture, in this case maize, can display patterns than resemble cocoa plantations, and in some cases can be grown with shade trees within the plot. However, one can identify rows that are closer to each other and a more homogenous canopy than would be typical of cocoa plantations.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-3.356624,120.380468" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-3.356624,120.380468" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/place/3%C2%B025'53.6%22S+120%C2%B021'18.2%22E/@-3.356604,120.3806656,3a,75y,291.95h,91.68t/data=!3m7!1e1!3m5!1s0Vei-eV9X-YvzN74DYa15w!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-1.6829314011852858%26panoid%3D0Vei-eV9X-YvzN74DYa15w%26yaw%3D291.95412195249287!7i16384!8i8192!4m4!3m3!8m2!3d-3.4315521!4d120.3550496?hl=vi-VN&entry=ttu&g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_92_100_m.webp" alt="Image for ID 92">
+                <div class="rendered-card-content"><p><b>Description:</b> Oil palm plantation displaying the typical star-shaped canopy and large shadow.</p><p><b>Country:</b> Ghana</p><p><a href="https://earth.google.com/web/search/6.168037,-0.297602" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.168037,-0.297602" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_93_100_m.webp" alt="Image for ID 93">
+                <div class="rendered-card-content"><p><b>Description:</b> Seasonal agriculture, in this case maize, can display patterns than resemble cocoa plantations, and in some cases can be grown with shade trees within the plot. However, one can identify rows that are closer to each other and a more homogenous canopy than would be typical of cocoa plantations.</p><p><b>Country:</b> Ghana</p><p><a href="https://earth.google.com/web/search/6.572831,0.369599" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.572831,0.369599" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/place/Le+Katoum/@6.5731087,0.3696789,3a,75y,266.17h,90t/data=!3m7!1e1!3m5!1s6OOqFqLFMOEYDDX8fluVFw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3D6OOqFqLFMOEYDDX8fluVFw%26yaw%3D266.1659957240007!7i13312!8i6656!4m15!1m5!3m4!2zNsKwMDknNTYuNSJOIDDCsDE3JzQwLjEiVw!8m2!3d6.1656804!4d-0.2944627!3m8!1s0xf96487f59b06721:0xf11e5a7b83757eda!5m2!4m1!1i2!8m2!3d4.6568867!4d-6.9207684!16s%2Fg%2F1hg4vwq14?hl=vi-VN&entry=ttu&g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_94_100_m.webp" alt="Image for ID 94">
+                <div class="rendered-card-content"><p><b>Description:</b> Oil palm plantation displaying the typical star-shaped canopy and large shadow.</p><p><b>Country:</b> Ghana</p><p><a href="https://earth.google.com/web/search/5.75194,-1.640533" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/5.75194,-1.640533" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_95_100_m.webp" alt="Image for ID 95">
+                <div class="rendered-card-content"><p><b>Description:</b> Cashew plantation. The trees have a large, irregular crown and are larger than cocoa trees. </p><p><b>Country:</b> Ghana</p><p><a href="https://earth.google.com/web/search/8.105606,-1.798748" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/8.105606,-1.798748" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_96_100_m.webp" alt="Image for ID 96">
+                <div class="rendered-card-content"><p><b>Description:</b> Rubber plantations can resemble cocoa. One can evaluate the size of the crowns and the height of the plantation (based on shadows) and identify the deciduous phenology to identify rubber.</p><p><b>Country:</b> Côte d'Ivoire</p><p><a href="https://earth.google.com/web/search/6.103976,-5.8914" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.103976,-5.8914" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_97_100_m.webp" alt="Image for ID 97">
+                <div class="rendered-card-content"><p><b>Description:</b> Plantain or banana plantation. These can look similar to cocoa plantations; however, the large, star-like leaves create a "messier" appearance in satellite imagery.</p><p><b>Country:</b> Côte d'Ivoire</p><p><a href="https://earth.google.com/web/search/6.151712,-5.917748" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.151712,-5.917748" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_99_100_m.webp" alt="Image for ID 99">
+                <div class="rendered-card-content"><p><b>Description:</b> Rubber plantations can resemble cocoa. One can evaluate the size of the crowns and the height of the plantation (based on shadows) and identify the deciduous phenology to identify rubber.</p><p><b>Country:</b> Côte d'Ivoire</p><p><a href="https://earth.google.com/web/search/5.713916,-6.435274" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/5.713916,-6.435274" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_100_100_m.webp" alt="Image for ID 100">
+                <div class="rendered-card-content"><p><b>Description:</b> Plantain or banana plantation. These can look similar to cocoa plantations; however, the large, star-like leaves create a "messier" appearance in satellite imagery.</p><p><b>Country:</b> Brazil</p><p><a href="https://earth.google.com/web/search/-14.560805,-39.270357" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-14.560805,-39.270357" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/place/14%C2%B033'38.8%22S+39%C2%B016'13.3%22W/@-14.5603115,-39.2711566,3a,75y,72.64h,88.36t/data=!3m7!1e1!3m5!1s1QffHKObkeRXgVOU5sf_8g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D1.6429827039378608%26panoid%3D1QffHKObkeRXgVOU5sf_8g%26yaw%3D72.6390576921319!7i16384!8i8192!4m4!3m3!8m2!3d-14.5607826!4d-39.2703671?hl=vi-VN&entry=ttu&g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_101_100_m.webp" alt="Image for ID 101">
+                <div class="rendered-card-content"><p><b>Description:</b> Some perennial crops are grown on an annual basis, in this case cassava. The planting pattern can be very similar to cocoa, however the rows are closer together and the canopy is more homogenous. The use of time series can show the frequent harvest of the crop.</p><p><b>Country:</b> Brazil</p><p><a href="https://earth.google.com/web/search/-14.588594,-39.5576" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-14.588594,-39.5576" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_102_100_m.webp" alt="Image for ID 102">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case mango. Can be misclassified as cocoa, but the distance between trees, typically more than the typical 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> India</p><p><a href="https://earth.google.com/web/search/17.366948,80.708215" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/17.366948,80.708215" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_103_100_m.webp" alt="Image for ID 103">
+                <div class="rendered-card-content"><p><b>Description:</b> Papaya plantation. Papaya can easily be confused with cocoa; however, the color of the leaves is a lighter green than cocoa, and the tree is slightly taller, which often results in a longer shadow. </p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-8.313183,114.531567" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-8.313183,114.531567" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/87SNbgKnw1Np3xuH6" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_104_100_m.webp" alt="Image for ID 104">
+                <div class="rendered-card-content"><p><b>Description:</b> Papaya plantation. Papaya can easily be confused with cocoa; however, the color of the leaves is a lighter green than cocoa, and the tree is slightly taller, which often results in a longer shadow. </p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-8.315643,114.525387" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-8.315643,114.525387" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/g57hBezNYD6Qt768A" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_105_100_m.webp" alt="Image for ID 105">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard. Can be misclassified as cocoa, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-5.238186,119.507602" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-5.238186,119.507602" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/CAwUPVxzgfqjknCh9" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_106_100_m.webp" alt="Image for ID 106">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard. Can be misclassified as cocoa, but the distance between trees, typically 7m instead of 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-2.558024,120.807435" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-2.558024,120.807435" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/bnx3STWTVpUoYr6q8" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_107_100_m.webp" alt="Image for ID 107">
+                <div class="rendered-card-content"><p><b>Description:</b> Coconut plantation displaying the typical star-shaped canopy and large shadow.</p><p><b>Country:</b> India</p><p><a href="https://earth.google.com/web/search/10.5833,76.940773" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/10.5833,76.940773" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/i2i5bMzXtRc4ttJXA" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_108_100_m.webp" alt="Image for ID 108">
+                <div class="rendered-card-content"><p><b>Description:</b> Fruit tree orchard, in this case probably mango. Can be misclassified as cocoa, but the distance between trees, typically more than the typical 2m - 4m for cocoa, is usually a clear indicator of such plantations.</p><p><b>Country:</b> India</p><p><a href="https://earth.google.com/web/search/10.681361,76.881122" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/10.681361,76.881122" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/DsDrPCHKBEeqYcet8" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_109_100_m.webp" alt="Image for ID 109">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation. The canopy structure can look similar to fully grown cocoa, but one can evaluate the height of the trees based on the visible trunk, shadows, and the rest of the landscape. Height analysis, combined with time series analysis, can help identify such plantations.</p><p><b>Country:</b> India</p><p><a href="https://earth.google.com/web/search/9.912661,76.813289" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/9.912661,76.813289" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/pURUBpotViRSmxc46" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_110_100_m.webp" alt="Image for ID 110">
+                <div class="rendered-card-content"><p><b>Description:</b> Some perennial crops are grown on an annual basis, in this case cassava. The planting pattern can be very similar to cocoa, however the rows are closer together and the canopy is more homogenous. The use of time series can show the frequent harvest of the crop.</p><p><b>Country:</b> India</p><p><a href="https://earth.google.com/web/search/10.017489,76.93008" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/10.017489,76.93008" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/y8NzzoPb5arJz5px9" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_111_100_m.webp" alt="Image for ID 111">
+                <div class="rendered-card-content"><p><b>Description:</b> Some perennial crops are grown on an annual basis, such as in this case cassava. The planting pattern can be very similar to cocoa, however the rows are closer together and the canopy is more homogenous. The use of time series can show the frequent harvest of the crop.</p><p><b>Country:</b> India</p><p><a href="https://earth.google.com/web/search/9.874308,76.747324" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/9.874308,76.747324" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/FcGkjr8inA29uFH78" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_112_100_m.webp" alt="Image for ID 112">
+                <div class="rendered-card-content"><p><b>Description:</b> Plantain or banana plantation. These can look similar to cocoa plantations; however, the large, star-like leaves create a "messier" appearance in satellite imagery.</p><p><b>Country:</b> India</p><p><a href="https://earth.google.com/web/search/9.874326,76.744284" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/9.874326,76.744284" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/Up4VYU3gnUr6JBgL7" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>

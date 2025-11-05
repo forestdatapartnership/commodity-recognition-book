@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cocoa “Look-Alike” Crops :: Commodity Recognition Book</title>
+    <link>/cocoa_book/01_cocoa_gallery/02_confounding_samples/index.html</link>
+    <description>Images of commodities that resemble cocoa in satellite imagery, with descriptions.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Nov 2024 19:36:25 +0700</lastBuildDate>
+    <atom:link href="/cocoa_book/01_cocoa_gallery/02_confounding_samples/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cash Crop Plantations</title>
+      <link>/cocoa_book/01_cocoa_gallery/02_confounding_samples/03_industrial/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+      <guid>/cocoa_book/01_cocoa_gallery/02_confounding_samples/03_industrial/index.html</guid>
+      <description>Plantation-style crops grown at scale, often in monoculture.</description>
+    </item>
+    <item>
+      <title>Bushland and Grassland</title>
+      <link>/cocoa_book/01_cocoa_gallery/02_confounding_samples/05_bushland/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+      <guid>/cocoa_book/01_cocoa_gallery/02_confounding_samples/05_bushland/index.html</guid>
+      <description>Scattered shrubs and low vegetation.</description>
+    </item>
+    <item>
+      <title>Fruit Tree Orchards</title>
+      <link>/cocoa_book/01_cocoa_gallery/02_confounding_samples/02_fruit/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+      <guid>/cocoa_book/01_cocoa_gallery/02_confounding_samples/02_fruit/index.html</guid>
+      <description>Plantations with trees specifically grown for their fruits.</description>
+    </item>
+    <item>
+      <title>Forests and Timber</title>
+      <link>/cocoa_book/01_cocoa_gallery/02_confounding_samples/04_timber/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+      <guid>/cocoa_book/01_cocoa_gallery/02_confounding_samples/04_timber/index.html</guid>
+      <description>Natural forests and productive timber plantations.</description>
+    </item>
+    <item>
+      <title>Seasonal Crops</title>
+      <link>/cocoa_book/01_cocoa_gallery/02_confounding_samples/06_seasonal/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+      <guid>/cocoa_book/01_cocoa_gallery/02_confounding_samples/06_seasonal/index.html</guid>
+      <description>Seasonal agriculture.</description>
+    </item>
+    <item>
+      <title>Trellised Crops</title>
+      <link>/cocoa_book/01_cocoa_gallery/02_confounding_samples/01_trellised/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+      <guid>/cocoa_book/01_cocoa_gallery/02_confounding_samples/01_trellised/index.html</guid>
+      <description>Vine crops such as black pepper and passion fruit.</description>
+    </item>
+    <item>
+      <title>All Cocoa Confounding Examples</title>
+      <link>/cocoa_book/01_cocoa_gallery/02_confounding_samples/07_all_confounding/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+      <guid>/cocoa_book/01_cocoa_gallery/02_confounding_samples/07_all_confounding/index.html</guid>
+      <description>All counfounding examples for cocoa.</description>
+    </item>
+  </channel>
+</rss>

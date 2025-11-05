@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Understanding Cocoa Cultivation :: Commodity Recognition Book</title>
+    <link>/cocoa_book/02_cocoa_cultivation/index.html</link>
+    <description>Learn how cocoa is grown and why it looks the way it does from above.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Nov 2024 19:36:25 +0700</lastBuildDate>
+    <atom:link href="/cocoa_book/02_cocoa_cultivation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cocoa Cultivation Systems</title>
+      <link>/cocoa_book/02_cocoa_cultivation/01_cocoa_planting_systems/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:34:46 +0700</pubDate>
+      <guid>/cocoa_book/02_cocoa_cultivation/01_cocoa_planting_systems/index.html</guid>
+      <description>Explore the diverse ways cocoa is planted, from irregular smallholder plots to highly structured commercial plantations.</description>
+    </item>
+    <item>
+      <title>Agroforestry and Intercropping Practices</title>
+      <link>/cocoa_book/02_cocoa_cultivation/02_intercropping_practices/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:10 +0700</pubDate>
+      <guid>/cocoa_book/02_cocoa_cultivation/02_intercropping_practices/index.html</guid>
+      <description>Learn how cocoa is grown with shade and companion crops in diverse agroforestry systems.</description>
+    </item>
+    <item>
+      <title>Pruning Practices</title>
+      <link>/cocoa_book/02_cocoa_cultivation/03_pruning/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:35:41 +0700</pubDate>
+      <guid>/cocoa_book/02_cocoa_cultivation/03_pruning/index.html</guid>
+      <description>Understand how pruning shapes cocoa canopies and influences their appearance in satellite imagery.</description>
+    </item>
+    <item>
+      <title>The Cocoa Life Cycle</title>
+      <link>/cocoa_book/02_cocoa_cultivation/04_life_cycle/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:35:34 +0700</pubDate>
+      <guid>/cocoa_book/02_cocoa_cultivation/04_life_cycle/index.html</guid>
+      <description>Follow the stages of cocoa’s long life cycle, from seedling to full production.</description>
+    </item>
+    <item>
+      <title>Cocoa Tree Characteristics</title>
+      <link>/cocoa_book/02_cocoa_cultivation/05_cocoa_appearance/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+      <guid>/cocoa_book/02_cocoa_cultivation/05_cocoa_appearance/index.html</guid>
+      <description>Learn how cocoa tree structure and foliage influence its appearance in satellite imagery.</description>
+    </item>
+    <item>
+      <title>Cocoa Varieties</title>
+      <link>/cocoa_book/02_cocoa_cultivation/06_varieties/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:35:57 +0700</pubDate>
+      <guid>/cocoa_book/02_cocoa_cultivation/06_varieties/index.html</guid>
+      <description>Discover how cocoa varieties and propagation methods shape field structure and canopy appearance.</description>
+    </item>
+  </channel>
+</rss>

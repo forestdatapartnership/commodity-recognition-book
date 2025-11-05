@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Understanding Coffee Cultivation :: Commodity Recognition Book</title>
+    <link>/coffee_book/02_coffee_cultivation/index.html</link>
+    <description>Learn how coffee is grown and why it looks the way it does from above.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Nov 2024 19:36:25 +0700</lastBuildDate>
+    <atom:link href="/coffee_book/02_coffee_cultivation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coffee Cultivation Systems</title>
+      <link>/coffee_book/02_coffee_cultivation/01_coffee_planting_patterns/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:34:46 +0700</pubDate>
+      <guid>/coffee_book/02_coffee_cultivation/01_coffee_planting_patterns/index.html</guid>
+      <description>Examples demonstrating the diversity of coffee production systems.</description>
+    </item>
+    <item>
+      <title>The Coffee Life Cycle</title>
+      <link>/coffee_book/02_coffee_cultivation/02_life_cycle/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:35:34 +0700</pubDate>
+      <guid>/coffee_book/02_coffee_cultivation/02_life_cycle/index.html</guid>
+      <description>Explore the relationship between the age of a coffee plantation and its appearance in satellite imagery.</description>
+    </item>
+    <item>
+      <title>Shade Management</title>
+      <link>/coffee_book/02_coffee_cultivation/03_shade_planting_patterns/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:34:46 +0700</pubDate>
+      <guid>/coffee_book/02_coffee_cultivation/03_shade_planting_patterns/index.html</guid>
+      <description>The level of shade in coffee systems significantly influences how they appear in high-resolution imagery.</description>
+    </item>
+    <item>
+      <title>Intercropping Practices</title>
+      <link>/coffee_book/02_coffee_cultivation/04_intercrop/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:10 +0700</pubDate>
+      <guid>/coffee_book/02_coffee_cultivation/04_intercrop/index.html</guid>
+      <description>In many coffee systems, intercropping is used to enhance income or improve soil management; these practices result in denser canopy structures and often obscure soil visibility in high-resolution imagery.</description>
+    </item>
+    <item>
+      <title>Pruning Practices</title>
+      <link>/coffee_book/02_coffee_cultivation/05_pruning/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:35:41 +0700</pubDate>
+      <guid>/coffee_book/02_coffee_cultivation/05_pruning/index.html</guid>
+      <description>Pruning affects the height, density, and overall structure of coffee trees, impacting the way they appear in satellite imagery.</description>
+    </item>
+    <item>
+      <title>Coffee Varieties</title>
+      <link>/coffee_book/02_coffee_cultivation/06_varieties/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:35:57 +0700</pubDate>
+      <guid>/coffee_book/02_coffee_cultivation/06_varieties/index.html</guid>
+      <description>The appearance of coffee systems in imagery can vary significantly due to regional differences in coffee varieties and their associated growing conditions.</description>
+    </item>
+    <item>
+      <title>Irrigation Practices</title>
+      <link>/coffee_book/02_coffee_cultivation/07_irrigation/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+      <guid>/coffee_book/02_coffee_cultivation/07_irrigation/index.html</guid>
+      <description>Irrigation is a key feature of highly intensified coffee systems, particularly in regions like Vietnam. Plots with irrigation systems often exhibit uniform growth and phenology, resulting in distinct patterns visible in high-resolution imagery.</description>
+    </item>
+    <item>
+      <title>Seasonal Cycles</title>
+      <link>/coffee_book/02_coffee_cultivation/08_coffee_phenology/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+      <guid>/coffee_book/02_coffee_cultivation/08_coffee_phenology/index.html</guid>
+      <description>Robusta coffee goes through a growth cycle of two years, throughout which its appearance varies in satellite imagery.</description>
+    </item>
+  </channel>
+</rss>

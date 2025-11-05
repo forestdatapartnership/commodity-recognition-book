@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coffee Recognition :: Commodity Recognition Book</title>
+    <link>/coffee_book/index.html</link>
+    <description>Learn to recognize coffee in satellite imagery.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Nov 2024 19:36:41 +0700</lastBuildDate>
+    <atom:link href="/coffee_book/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coffee Gallery</title>
+      <link>/coffee_book/01_coffee_gallery/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+      <guid>/coffee_book/01_coffee_gallery/index.html</guid>
+      <description>Learn to recognize coffee in satellite imagery.</description>
+    </item>
+    <item>
+      <title>Understanding Coffee Cultivation</title>
+      <link>/coffee_book/02_coffee_cultivation/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+      <guid>/coffee_book/02_coffee_cultivation/index.html</guid>
+      <description>Learn how coffee is grown and why it looks the way it does from above.</description>
+    </item>
+    <item>
+      <title>Image Interpretation Challenges</title>
+      <link>/coffee_book/03_image_interpretation/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:41 +0700</pubDate>
+      <guid>/coffee_book/03_image_interpretation/index.html</guid>
+      <description>Learn to recognize patterns and improve interpretation accuracy.</description>
+    </item>
+  </channel>
+</rss>

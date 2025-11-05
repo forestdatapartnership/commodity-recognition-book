@@ -1,0 +1,116 @@
+<html>
+<head>
+    <title>Commodity Book</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .filter-container {
+            padding: 16px 16px 8px 24px;
+            text-align: left;
+        }
+        .filter-container > label,
+        .filter-container > select {
+            font-weight: normal;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .filter-container select {
+            margin: 0 12px 4px 4px;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .card-count {
+            text-align: center;
+            padding: 8px;
+            color: #555;
+            background-color: #f0f0f0;
+        }
+        .card-count:empty {
+            display: none;
+        }
+        .rendered-card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+            padding: 16px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .rendered-card-content {
+            padding: 16px;
+        }
+        .rendered-card-content p {
+            margin: 0 0 8px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="commodity-book-interactive-table">
+        
+        <div id="visible-card-count" class="card-count"></div>
+        <div class="rendered-card-container">
+            
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_98_100_m.webp" alt="Image for ID 98">
+                <div class="rendered-card-content"><p><b>Description:</b> Recently planted coffee plot.  The plot seems to be full-sun with no intercropping.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Recently planted</p><p><b>Pruning:</b> Frequent</p><p><b>Variety:</b> Arabica</p><p><a href="https://earth.google.com/web/search/@12.032325,108.544674" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/12.032325,108.544674" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_75_100_m.webp" alt="Image for ID 75">
+                <div class="rendered-card-content"><p><b>Description:</b> Recently planted coffee plot, the plot seems to be full-sun with no intercropping.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Recently planted</p><p><b>Pruning:</b> Infrequent</p><p><b>Variety:</b> Robusta</p><p><a href="https://earth.google.com/web/search/@11.802129,108.032876" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.802129,108.032876" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_73_100_m.webp" alt="Image for ID 73">
+                <div class="rendered-card-content"><p><b>Description:</b> Recently planted coffee plot; the plot seems to be full-sun with no intercropping ongoing.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Replanting</p><p><b>Pruning:</b> Infrequent</p><p><b>Variety:</b> Robusta</p><p><a href="https://earth.google.com/web/search/@11.560125,107.915479" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.560125,107.915479" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_60_100_m.webp" alt="Image for ID 60">
+                <div class="rendered-card-content"><p><b>Description:</b> Recently replanted or stumped coffee plot. Few shade trees are still visible in the plot while the coffee plants are regrowing.</p><p><b>Country:</b> Costa Rica</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Stumping</p><p><b>Pruning:</b> Frequent</p><p><b>Variety:</b> Arabica</p><p><a href="https://earth.google.com/web/search/@10.091228,-84.160488" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/10.091228,-84.160488" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_47_100_m.webp" alt="Image for ID 47">
+                <div class="rendered-card-content"><p><b>Description:</b> Rows of shade trees serve as windbreak between rows of coffee trees.</p><p><b>Country:</b> El Salvador</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Replanting</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@13.856275,-89.797627" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/13.856275,-89.797627" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_35_100_m.webp" alt="Image for ID 35">
+                <div class="rendered-card-content"><p><b>Description:</b> Very recently replanted plot. The shade trees are still standing, but the coffee trees have all been removed and are growing back.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Recently planted</p><p><b>Pruning:</b> Infrequent</p><p><b>Variety:</b> Robusta</p><p><a href="https://earth.google.com/web/search/@11.627295,107.88788" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.627295,107.88788" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_3_100_m.webp" alt="Image for ID 3">
+                <div class="rendered-card-content"><p><b>Description:</b> Coffee with medium shade level. Historical images on Google Earth show that the shade trees were planted at the same time as the coffee. A plot with denser shade is visible about 50m north of the marker, where coffee is still visible between the shade trees, although the canopy is nearly closed.</p><p><b>Country:</b> Honduras</p><p><b>Shade level:</b> Medium</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@14.501015,-89.169984" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/14.501015,-89.169984" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>

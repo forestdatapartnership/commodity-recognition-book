@@ -1,0 +1,111 @@
+<html>
+<head>
+    <title>Commodity Book</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .filter-container {
+            padding: 16px 16px 8px 24px;
+            text-align: left;
+        }
+        .filter-container > label,
+        .filter-container > select {
+            font-weight: normal;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .filter-container select {
+            margin: 0 12px 4px 4px;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .card-count {
+            text-align: center;
+            padding: 8px;
+            color: #555;
+            background-color: #f0f0f0;
+        }
+        .card-count:empty {
+            display: none;
+        }
+        .rendered-card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+            padding: 16px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .rendered-card-content {
+            padding: 16px;
+        }
+        .rendered-card-content p {
+            margin: 0 0 8px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="commodity-book-interactive-table">
+        
+        <div id="visible-card-count" class="card-count"></div>
+        <div class="rendered-card-container">
+            
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_33_100_m.webp" alt="Image for ID 33">
+                <div class="rendered-card-content"><p><b>Description:</b> Some grassland can present regular linear patterns that could be misidentified as coffee. However, grassland can typically be identified based on the lack of shadows.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/6.363612,-75.464171" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.363612,-75.464171" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@6.3633349,-75.4642804,3a,60y,24.97h,76.62t/data=!3m7!1e1!3m5!1sURbWELpIKV6aDda0JCrvig!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D13.381672159914103%26panoid%3DURbWELpIKV6aDda0JCrvig%26yaw%3D24.97050532872509!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_35_100_m.webp" alt="Image for ID 35">
+                <div class="rendered-card-content"><p><b>Description:</b> Bushland can sometime present dense bushes that can be misidentified as coffee plantations. However, these areas often lack the regularity of coffee plantations.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/2.182451,-76.873462" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/2.182451,-76.873462" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@2.1824311,-76.8732786,3a,60y,302.25h,127.34t/data=!3m7!1e1!3m5!1s99bu3jGpvov3eQuwffpbHA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-37.34462747258827%26panoid%3D99bu3jGpvov3eQuwffpbHA%26yaw%3D302.24547910721617!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_36_100_m.webp" alt="Image for ID 36">
+                <div class="rendered-card-content"><p><b>Description:</b> Some grassland can present regular linear patterns that could be misidentified as coffee. However, grassland can typically be identified based on the lack of shadows.</p><p><b>Country:</b> Ecuador</p><p><a href="https://earth.google.com/web/search/-1.350756,-78.812274" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-1.350756,-78.812274" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@2.1824311,-76.8732786,3a,60y,302.25h,127.34t/data=!3m7!1e1!3m5!1s99bu3jGpvov3eQuwffpbHA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-37.34462747258827%26panoid%3D99bu3jGpvov3eQuwffpbHA%26yaw%3D302.24547910721617!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_37_100_m.webp" alt="Image for ID 37">
+                <div class="rendered-card-content"><p><b>Description:</b> Bushland can sometime present dense secondary vegetation that can be misidentified as coffee plantations. However, these areas often lack the regularity of coffee plantations.</p><p><b>Country:</b> Ecuador</p><p><a href="https://earth.google.com/web/search/-1.326829,-78.755105" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-1.326829,-78.755105" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@-1.3269711,-78.7548527,3a,60y,288.55h,77.19t/data=!3m7!1e1!3m5!1s6hL6Z0Neidzjt0JG4YOt4A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D12.806928273706532%26panoid%3D6hL6Z0Neidzjt0JG4YOt4A%26yaw%3D288.5537604398816!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_38_100_m.webp" alt="Image for ID 38">
+                <div class="rendered-card-content"><p><b>Description:</b> Some grassland can present regular linear patterns that could be misidentified as coffee. However, grassland can typically be identified based on the lack of shadows.</p><p><b>Country:</b> Ecuador</p><p><a href="https://earth.google.com/web/search/-1.324148,-78.669937" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-1.324148,-78.669937" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@-1.3242901,-78.6698019,3a,60y,338.76h,76.02t/data=!3m7!1e1!3m5!1shlLLkwa3hO_KavTz_LSkTQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D13.981944800077443%26panoid%3DhlLLkwa3hO_KavTz_LSkTQ%26yaw%3D338.76282110302833!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_40_100_m.webp" alt="Image for ID 40">
+                <div class="rendered-card-content"><p><b>Description:</b> Bushland in arid landscapes can have patterns that can be misidentified as coffee plantations. However, these areas often lack the regularity of coffee plantations.</p><p><b>Country:</b> Senegal</p><p><a href="https://earth.google.com/web/search/14.109954,-15.718449" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/14.109954,-15.718449" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>

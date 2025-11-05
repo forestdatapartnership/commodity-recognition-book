@@ -1,0 +1,131 @@
+<html>
+<head>
+    <title>Commodity Book</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .filter-container {
+            padding: 16px 16px 8px 24px;
+            text-align: left;
+        }
+        .filter-container > label,
+        .filter-container > select {
+            font-weight: normal;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .filter-container select {
+            margin: 0 12px 4px 4px;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .card-count {
+            text-align: center;
+            padding: 8px;
+            color: #555;
+            background-color: #f0f0f0;
+        }
+        .card-count:empty {
+            display: none;
+        }
+        .rendered-card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+            padding: 16px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .rendered-card-content {
+            padding: 16px;
+        }
+        .rendered-card-content p {
+            margin: 0 0 8px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="commodity-book-interactive-table">
+        
+        <div id="visible-card-count" class="card-count"></div>
+        <div class="rendered-card-container">
+            
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_10_100_m.webp" alt="Image for ID 10">
+                <div class="rendered-card-content"><p><b>Description:</b> Some perennial crops are grown on an annual basis, in this case cassava. The planting pattern can be very similar to cocoa, however the rows are closer together and the canopy is more homogenous. The use of time series can show the frequent harvest of the crop.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-5.059789,105.360334" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-5.059789,105.360334" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@-5.0595637,105.3603098,3a,60y,144.03h,77.45t/data=!3m7!1e1!3m5!1sqZ6D_VDuALtrJ9nzuXaGrw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D12.548131830114869%26panoid%3DqZ6D_VDuALtrJ9nzuXaGrw%26yaw%3D144.03467377240852!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_15_100_m.webp" alt="Image for ID 15">
+                <div class="rendered-card-content"><p><b>Description:</b> Fallow lands can have regrowth of secondary bush-like vegetation that can resemble cocoa. However, these bushes do not follow an organized pattern such as the one seen in cocoa plantations</p><p><b>Country:</b> Peru</p><p><a href="https://earth.google.com/web/search/-9.774922,-75.008076" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-9.774922,-75.008076" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@-9.7752459,-75.0083024,3a,60y,114.76h,89.88t/data=!3m7!1e1!3m5!1sh6SWPbY3LmeQeUbHbfzmkg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0.11652965855100206%26panoid%3Dh6SWPbY3LmeQeUbHbfzmkg%26yaw%3D114.76270278767792!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_17_100_m.webp" alt="Image for ID 17">
+                <div class="rendered-card-content"><p><b>Description:</b> Fallow lands can have regrowth of secondary bush-like vegetation that can resemble cocoa. However, these bushes do not follow an organized pattern such as the one seen in cocoa plantations</p><p><b>Country:</b> Brazil</p><p><a href="https://earth.google.com/web/search/-31.504881,-52.911639" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-31.504881,-52.911639" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@-31.505101,-52.9116945,3a,60y,8.04h,85.24t/data=!3m7!1e1!3m5!1sxCNkKypFYUwXMi9yzyZMpQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D4.757511278696384%26panoid%3DxCNkKypFYUwXMi9yzyZMpQ%26yaw%3D8.038079971323265!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_24_100_m.webp" alt="Image for ID 24">
+                <div class="rendered-card-content"><p><b>Description:</b> Some perennial crops are grown on an annual basis, in this case cassava. The planting pattern can be very similar to cocoa, however the rows are closer together and the canopy is more homogenous. The use of time series can show the frequent harvest of the crop.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-5.190842,105.350414" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-5.190842,105.350414" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@-5.1907297,105.3503769,3a,60y,155.79h,80.47t/data=!3m7!1e1!3m5!1s9PhlJahS0d8jb3n_OO8Sig!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D9.53348942609685%26panoid%3D9PhlJahS0d8jb3n_OO8Sig%26yaw%3D155.78742751844052!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_42_100_m.webp" alt="Image for ID 42">
+                <div class="rendered-card-content"><p><b>Description:</b> Seasonal agriculture can display canopy similar to cocoa. However, the planting pattern is much tighter and the canopy is often much more homogenous than would be typical of cocoa plantations. Time-series analysis can highlight the annual life cycle of such crops.</p><p><b>Country:</b> Senegal</p><p><a href="https://earth.google.com/web/search/12.850702,-15.027808" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/12.850702,-15.027808" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_87_100_m.webp" alt="Image for ID 87">
+                <div class="rendered-card-content"><p><b>Description:</b> Seasonal agriculture, in this case maize, can display patterns than resemble cocoa plantations, and in some cases can be grown with shade trees within the plot. However, one can identify rows that are closer to each other and a more homogenous canopy than would be typical of cocoa plantations.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-4.488028,120.012588" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-4.488028,120.012588" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/place/4%C2%B029'13.2%22S+119%C2%B053'12.1%22E/@-4.4879352,120.0123628,3a,75y,122.63h,90t/data=!3m7!1e1!3m5!1sO_ZRoixN8mB7UNyoXYEf4g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DO_ZRoixN8mB7UNyoXYEf4g%26yaw%3D122.62972280373474!7i16384!8i8192!4m4!3m3!8m2!3d-4.4870055!4d119.8866968?hl=vi-VN&entry=ttu&g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_91_100_m.webp" alt="Image for ID 91">
+                <div class="rendered-card-content"><p><b>Description:</b> Seasonal agriculture, in this case maize, can display patterns than resemble cocoa plantations, and in some cases can be grown with shade trees within the plot. However, one can identify rows that are closer to each other and a more homogenous canopy than would be typical of cocoa plantations.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-3.356624,120.380468" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-3.356624,120.380468" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/place/3%C2%B025'53.6%22S+120%C2%B021'18.2%22E/@-3.356604,120.3806656,3a,75y,291.95h,91.68t/data=!3m7!1e1!3m5!1s0Vei-eV9X-YvzN74DYa15w!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-1.6829314011852858%26panoid%3D0Vei-eV9X-YvzN74DYa15w%26yaw%3D291.95412195249287!7i16384!8i8192!4m4!3m3!8m2!3d-3.4315521!4d120.3550496?hl=vi-VN&entry=ttu&g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_93_100_m.webp" alt="Image for ID 93">
+                <div class="rendered-card-content"><p><b>Description:</b> Seasonal agriculture, in this case maize, can display patterns than resemble cocoa plantations, and in some cases can be grown with shade trees within the plot. However, one can identify rows that are closer to each other and a more homogenous canopy than would be typical of cocoa plantations.</p><p><b>Country:</b> Ghana</p><p><a href="https://earth.google.com/web/search/6.572831,0.369599" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.572831,0.369599" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/place/Le+Katoum/@6.5731087,0.3696789,3a,75y,266.17h,90t/data=!3m7!1e1!3m5!1s6OOqFqLFMOEYDDX8fluVFw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3D6OOqFqLFMOEYDDX8fluVFw%26yaw%3D266.1659957240007!7i13312!8i6656!4m15!1m5!3m4!2zNsKwMDknNTYuNSJOIDDCsDE3JzQwLjEiVw!8m2!3d6.1656804!4d-0.2944627!3m8!1s0xf96487f59b06721:0xf11e5a7b83757eda!5m2!4m1!1i2!8m2!3d4.6568867!4d-6.9207684!16s%2Fg%2F1hg4vwq14?hl=vi-VN&entry=ttu&g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_101_100_m.webp" alt="Image for ID 101">
+                <div class="rendered-card-content"><p><b>Description:</b> Some perennial crops are grown on an annual basis, in this case cassava. The planting pattern can be very similar to cocoa, however the rows are closer together and the canopy is more homogenous. The use of time series can show the frequent harvest of the crop.</p><p><b>Country:</b> Brazil</p><p><a href="https://earth.google.com/web/search/-14.588594,-39.5576" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-14.588594,-39.5576" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_110_100_m.webp" alt="Image for ID 110">
+                <div class="rendered-card-content"><p><b>Description:</b> Some perennial crops are grown on an annual basis, in this case cassava. The planting pattern can be very similar to cocoa, however the rows are closer together and the canopy is more homogenous. The use of time series can show the frequent harvest of the crop.</p><p><b>Country:</b> India</p><p><a href="https://earth.google.com/web/search/10.017489,76.93008" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/10.017489,76.93008" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/y8NzzoPb5arJz5px9" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>

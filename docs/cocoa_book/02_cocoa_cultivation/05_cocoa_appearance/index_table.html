@@ -1,0 +1,111 @@
+<html>
+<head>
+    <title>Commodity Book</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .filter-container {
+            padding: 16px 16px 8px 24px;
+            text-align: left;
+        }
+        .filter-container > label,
+        .filter-container > select {
+            font-weight: normal;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .filter-container select {
+            margin: 0 12px 4px 4px;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .card-count {
+            text-align: center;
+            padding: 8px;
+            color: #555;
+            background-color: #f0f0f0;
+        }
+        .card-count:empty {
+            display: none;
+        }
+        .rendered-card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+            padding: 16px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .rendered-card-content {
+            padding: 16px;
+        }
+        .rendered-card-content p {
+            margin: 0 0 8px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="commodity-book-interactive-table">
+        
+        <div id="visible-card-count" class="card-count"></div>
+        <div class="rendered-card-container">
+            
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_29_100_m.webp" alt="Image for ID 29">
+                <div class="rendered-card-content"><p><b>Description:</b> This cocoa plantation in Ghana has indistinct plot boundaries, blending into a large, continuous area of cocoa with a relatively low level of shade, making it visually similar to degraded forest in satellite imagery. However, clues such as the presence of scattered households or farms, the light green color of the canopy, and its overall homogeneity can help distinguish it as a cocoa-growing area.</p><p><b>Country:</b> Ghana</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><a href="https://earth.google.com/web/search/@6.698903,-2.23953" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.698903,-2.23953" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_30_100_m.webp" alt="Image for ID 30">
+                <div class="rendered-card-content"><p><b>Description:</b> This is another example of a cocoa plantation in Ghana, where plot boundaries are not discernible in satellite imagery, creating the appearance of a large, continuous canopy with low shade density. As with similar cases, the area may resemble degraded forest, but indicators such as scattered households or farms, the light green color of the foliage, and the uniformity of the canopy can help identify it as cocoa.</p><p><b>Country:</b> Ghana</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><a href="https://earth.google.com/web/search/@6.777395,-2.185375" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.777395,-2.185375" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_31_100_m.webp" alt="Image for ID 31">
+                <div class="rendered-card-content"><p><b>Description:</b> This is another example of a cocoa plantation in Ghana, where plot boundaries are not visible in satellite imagery, resulting in a large, continuous expanse of cocoa with low shade density. In this particular area, the canopy is especially dense, likely due to infrequent pruning, further enhancing its resemblance to degraded forest. However, clues such as scattered households or farms, the light green coloration of the trees, and the overall homogeneity of the canopy can help in identifying it as cocoa.</p><p><b>Country:</b> Ghana</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><a href="https://earth.google.com/web/search/@6.639497,-2.471338" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.639497,-2.471338" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_32_100_m.webp" alt="Image for ID 32">
+                <div class="rendered-card-content"><p><b>Description:</b> This is another example of a cocoa plantation in Ghana, where plot boundaries are not visible in satellite imagery, creating a large, continuous area of cocoa that blends into the surrounding landscape. In this case, the shade level is higher than typically seen in the region, which, combined with the dense canopy, makes it closely resemble degraded forest. Nonetheless, features such as scattered households or farms and the light green tone of the foliage serve as key indicators for identifying it as cocoa.</p><p><b>Country:</b> Ghana</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><a href="https://earth.google.com/web/search/@6.532125,-2.479053" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.532125,-2.479053" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_34_100_m.webp" alt="Image for ID 34">
+                <div class="rendered-card-content"><p><b>Description:</b> This is a very densely planted cocoa area in Ghana, where plot boundaries are not visible in satellite imagery, creating the appearance of a large, continuous cocoa landscape with relatively low shade levels. This structure closely resembles degraded forest, making identification challenging. However, the presence of scattered households or farms, the light green coloration of the canopy, and its overall uniformity serve as useful clues for recognizing it as cocoa.</p><p><b>Country:</b> Ghana</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><a href="https://earth.google.com/web/search/@6.831005,-2.288049" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.831005,-2.288049" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/cocoa_samples/cocoa_43_100_m.webp" alt="Image for ID 43">
+                <div class="rendered-card-content"><p><b>Description:</b> Cocoa plantation in Vietnam, with a light-green canopy similar to that often observed in Ghana.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Medium</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><a href="https://earth.google.com/web/search/@11.376526,107.369834" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.376526,107.369834" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/place/Ca+cao+T%C3%A0+L%C3%A0i/@11.3765319,107.369368,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgIDexJ7gmgE!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FAC9h4nqhX_xsRaEcNcorp6t9Hndtej0mK17rEJfOMGGcKXd1vLn3A9TbfGzGihrzJEzA-3ntBk_gIC4ea6JdE1vN_IlPY9LnKblIP81pjjFtNZJSLMHt1TZom2zSKFcmq1P6lSUvViCWgQ%3Dw114-h86-k-no!7i4000!8i3000!4m13!1m5!3m4!2zMTHCsDIyJzM1LjQiTiAxMDfCsDIyJzExLjMiRQ!8m2!3d11.3764922!4d107.3697989!3m6!1s0x31747cba3f8dcdb3:0xe0487b8947ad7f60!8m2!3d11.3765319!4d107.369368!10e5!16s%2Fg%2F11hcyvd1fl?hl=vi-VN&entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>
