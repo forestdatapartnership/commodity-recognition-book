@@ -1,0 +1,156 @@
+<html>
+<head>
+    <title>Commodity Book</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .filter-container {
+            padding: 16px 16px 8px 24px;
+            text-align: left;
+        }
+        .filter-container > label,
+        .filter-container > select {
+            font-weight: normal;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .filter-container select {
+            margin: 0 12px 4px 4px;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .card-count {
+            text-align: center;
+            padding: 8px;
+            color: #555;
+            background-color: #f0f0f0;
+        }
+        .card-count:empty {
+            display: none;
+        }
+        .rendered-card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+            padding: 16px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .rendered-card-content {
+            padding: 16px;
+        }
+        .rendered-card-content p {
+            margin: 0 0 8px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="commodity-book-interactive-table">
+        
+        <div id="visible-card-count" class="card-count"></div>
+        <div class="rendered-card-container">
+            
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_8_100_m.webp" alt="Image for ID 8">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation, likely acacia or eucalyptus, replanted  about three years before the image was taken. The canopy structure can look similar to coffee, but one can evaluate the height of the trees based on the rest of the landscape. Furthermore, historical data shows the life cycle of timber plantations harvested every few years.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/12.713374,108.792937" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/12.713374,108.792937" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_9_100_m.webp" alt="Image for ID 9">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation. The canopy structure can look similar to coffee, but one can evaluate the height of the trees based on the visible trunk, shadows, and the rest of the landscape. Height analysis, combined with time series analysis, can help identify such plantations.</p><p><b>Country:</b> Brazil</p><p><a href="https://earth.google.com/web/search/-19.596213,-52.899521" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-19.596213,-52.899521" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_16_100_m.webp" alt="Image for ID 16">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation. The canopy structure can look similar to coffee, but one can evaluate the height of the trees based on the visible trunk, shadows, and the rest of the landscape. Height analysis, combined with time series analysis, can help identify such plantations.</p><p><b>Country:</b> Chile</p><p><a href="https://earth.google.com/web/search/-38.023615,-72.814413" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-38.023615,-72.814413" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@-38.0238324,-72.8147665,3a,60y,82.92h,98.51t/data=!3m7!1e1!3m5!1sGMzPOKXMu6zDEJPHJBpOCg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-8.512381115423523%26panoid%3DGMzPOKXMu6zDEJPHJBpOCg%26yaw%3D82.91537729244826!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_27_100_m.webp" alt="Image for ID 27">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation. The canopy structure can look similar to coffee, but one can evaluate the height of the trees based on the visible trunk, shadows, and the rest of the landscape. Height analysis, combined with time series analysis, can help identify such plantations.</p><p><b>Country:</b> Uganda</p><p><a href="https://earth.google.com/web/search/1.901496,32.560823" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/1.901496,32.560823" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_29_100_m.webp" alt="Image for ID 29">
+                <div class="rendered-card-content"><p><b>Description:</b> Pine plantations look similar to rubber, but the canopy is larger and doesn't have the rounded pattern typical of rubber trees. Furthermore, pine trees' foliage sometimes turns red.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/11.699954,107.946718" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.699954,107.946718" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_39_100_m.webp" alt="Image for ID 39">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantations at an early stage can appear very similar to coffee. Some clear indicators can be the distance between trees and the use of historical data to better understand the crop dynamic.</p><p><b>Country:</b> Brazil</p><p><a href="https://earth.google.com/web/search/0.706287,-51.421028" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/0.706287,-51.421028" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_45_100_m.webp" alt="Image for ID 45">
+                <div class="rendered-card-content"><p><b>Description:</b> Highly degraded forest with secondary vegetation growing under a layer of taller trees. It can be difficult to differentiate these systems from coffee with agroforestry. The lack of regular patterns of the secondary vegetation and time series analysis can help identify such forests.</p><p><b>Country:</b> Ghana</p><p><a href="https://earth.google.com/web/search/6.67633,-2.244791" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/6.67633,-2.244791" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_48_100_m.webp" alt="Image for ID 48">
+                <div class="rendered-card-content"><p><b>Description:</b> Pine plantations.  The canopy structure can look similar to coffee but one can evaluate the height of the trees based on the visible trunk, shadows and the rest of the landscape together with time series analysis to identify such plantations.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/11.623442,108.366651" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.623442,108.366651" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_49_100_m.webp" alt="Image for ID 49">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation. The canopy structure can look similar to coffee, but one can evaluate the height of the trees based on the visible trunk, shadows, and the rest of the landscape. Height analysis, combined with time series analysis, can help identify such plantations.</p><p><b>Country:</b> Brazil</p><p><a href="https://earth.google.com/web/search/-23.9274,-50.175004" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-23.9274,-50.175004" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_52_100_m.webp" alt="Image for ID 52">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation, in this case eucalyptus. During its growing stage, the plantation can be very similar to infrequently-pruned coffee. The distance between rows of trees and the use of time series analysis can help identify such plantations.</p><p><b>Country:</b> Peru</p><p><a href="https://earth.google.com/web/search/-8.62842,-74.97821" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-8.62842,-74.97821" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_57_100_m.webp" alt="Image for ID 57">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation, in this case probably eucalyptus. The canopy structure can look similar to coffee, but one can evaluate the height of the trees based on the visible trunk, shadows and the rest of the landscape. Height analysis, together with time series analysis, can help identify such plantations.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/3.845588,-76.508285" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/3.845588,-76.508285" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_63_100_m.webp" alt="Image for ID 63">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation, in this case probably eucalyptus. The canopy structure can look similar to coffee, but one can evaluate the height of the trees based on the visible trunk, shadows and the rest of the landscape. Height analysis, together with time series analysis, can help identify such plantations.</p><p><b>Country:</b> Peru</p><p><a href="https://earth.google.com/web/search/-8.596645,-74.924588" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-8.596645,-74.924588" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/26qphp4xGT8kTwkW9" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_65_100_m.webp" alt="Image for ID 65">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation, in this case probably eucalyptus. The canopy structure can look similar to coffee, but one can evaluate the height of the trees based on the visible trunk, shadows and the rest of the landscape. Height analysis, together with time series analysis, can help identify such plantations.</p><p><b>Country:</b> Peru</p><p><a href="https://earth.google.com/web/search/-8.51075,-74.852223" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-8.51075,-74.852223" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/Hs1toarmCrB2AA6T8" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_66_100_m.webp" alt="Image for ID 66">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation. The canopy structure can look similar to coffee, but one can evaluate the height of the trees based on the visible trunk, shadows, and the rest of the landscape. Height analysis, combined with time series analysis, can help identify such plantations.</p><p><b>Country:</b> Colombia</p><p><a href="https://earth.google.com/web/search/8.296469,-76.599199" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/8.296469,-76.599199" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_109_100_m.webp" alt="Image for ID 109">
+                <div class="rendered-card-content"><p><b>Description:</b> Timber plantation. The canopy structure can look similar to coffee, but one can evaluate the height of the trees based on the visible trunk, shadows, and the rest of the landscape. Height analysis, combined with time series analysis, can help identify such plantations.</p><p><b>Country:</b> India</p><p><a href="https://earth.google.com/web/search/9.912661,76.813289" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/9.912661,76.813289" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/pURUBpotViRSmxc46" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>

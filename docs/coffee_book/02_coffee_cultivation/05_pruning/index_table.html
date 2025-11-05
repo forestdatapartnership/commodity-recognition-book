@@ -1,0 +1,161 @@
+<html>
+<head>
+    <title>Commodity Book</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .filter-container {
+            padding: 16px 16px 8px 24px;
+            text-align: left;
+        }
+        .filter-container > label,
+        .filter-container > select {
+            font-weight: normal;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .filter-container select {
+            margin: 0 12px 4px 4px;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .card-count {
+            text-align: center;
+            padding: 8px;
+            color: #555;
+            background-color: #f0f0f0;
+        }
+        .card-count:empty {
+            display: none;
+        }
+        .rendered-card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+            padding: 16px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .rendered-card-content {
+            padding: 16px;
+        }
+        .rendered-card-content p {
+            margin: 0 0 8px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="commodity-book-interactive-table">
+        
+        <div id="visible-card-count" class="card-count"></div>
+        <div class="rendered-card-container">
+            
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_102_100_m.webp" alt="Image for ID 102">
+                <div class="rendered-card-content"><p><b>Description:</b> Frequently pruned coffee trees in a low density shading system. The shade trees were planted together with the coffee and are likely productive trees.</p><p><b>Country:</b> Kenya</p><p><b>Shade level:</b> Medium</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><a href="https://earth.google.com/web/search/@-1.032963,36.987265" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-1.032963,36.987265" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_101_100_m.webp" alt="Image for ID 101">
+                <div class="rendered-card-content"><p><b>Description:</b> Frequently pruned coffee trees in a full-sun system.</p><p><b>Country:</b> Kenya</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><a href="https://earth.google.com/web/search/@-1.022171,36.970772" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-1.022171,36.970772" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_89_100_m.webp" alt="Image for ID 89">
+                <div class="rendered-card-content"><p><b>Description:</b> Robusta coffee infrequently pruned in a moderately shaded agroforestry system.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Medium</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><b>Variety:</b> Robusta</p><p><a href="https://earth.google.com/web/search/@12.786389,107.934651" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/12.786389,107.934651" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_85_100_m.webp" alt="Image for ID 85">
+                <div class="rendered-card-content"><p><b>Description:</b> Frequently-pruned arabica coffee with a low shade tree density. Weeding seems to be performed infrequently.</p><p><b>Country:</b> Colombia</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><b>Variety:</b> Arabica</p><p><a href="https://earth.google.com/web/search/@4.596288,-75.62903" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/4.596288,-75.62903" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_81_100_m.webp" alt="Image for ID 81">
+                <div class="rendered-card-content"><p><b>Description:</b> Frequently-pruned and full-sun arabica coffee.</p><p><b>Country:</b> Colombia</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><b>Variety:</b> Arabica</p><p><a href="https://earth.google.com/web/search/@2.014113,-76.075365" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/2.014113,-76.075365" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_80_100_m.webp" alt="Image for ID 80">
+                <div class="rendered-card-content"><p><b>Description:</b> Frequently-pruned arabica coffee with a low shade tree density.</p><p><b>Country:</b> Colombia</p><p><b>Shade level:</b> Low</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><b>Variety:</b> Arabica</p><p><a href="https://earth.google.com/web/search/@2.614927,-76.525156" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/2.614927,-76.525156" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_78_100_m.webp" alt="Image for ID 78">
+                <div class="rendered-card-content"><p><b>Description:</b> Full sun robusta coffee. The trees are infrequently pruned and are larger than what can be seen in Latin America.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><b>Variety:</b> Robusta</p><p><a href="https://earth.google.com/web/search/@11.705909,107.917241" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.705909,107.917241" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_77_100_m.webp" alt="Image for ID 77">
+                <div class="rendered-card-content"><p><b>Description:</b> Full sun robusta coffee. The trees are infrequently pruned and are larger than what can be seen in Latin America.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><b>Variety:</b> Robusta</p><p><a href="https://earth.google.com/web/search/@11.68396,107.803383" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.68396,107.803383" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_76_100_m.webp" alt="Image for ID 76">
+                <div class="rendered-card-content"><p><b>Description:</b> Full sun robusta coffee. The trees are infrequently pruned and are larger than what can be seen in Latin America. While the plots nearby are intercropped, this particular plot is not.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><b>Variety:</b> Robusta</p><p><a href="https://earth.google.com/web/search/@11.679348,107.808167" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.679348,107.808167" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_66_100_m.webp" alt="Image for ID 66">
+                <div class="rendered-card-content"><p><b>Description:</b> Full-sun coffee system with regular rows of frequently-pruned coffee trees.</p><p><b>Country:</b> Costa Rica</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><b>Variety:</b> Arabica</p><p><a href="https://earth.google.com/web/search/@10.115847,-84.385185" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/10.115847,-84.385185" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_61_100_m.webp" alt="Image for ID 61">
+                <div class="rendered-card-content"><p><b>Description:</b> Large full-sun plantation of frequently-pruned coffee trees.</p><p><b>Country:</b> Costa Rica</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><b>Variety:</b> Arabica</p><p><a href="https://earth.google.com/web/search/@10.080294,-84.157456" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/10.080294,-84.157456" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_38_100_m.webp" alt="Image for ID 38">
+                <div class="rendered-card-content"><p><b>Description:</b> Full sun plantation of frequently pruned arabica coffee. This large plantation is very densely planted. South of this plantation is a banana/plantain plantation.</p><p><b>Country:</b> Colombia</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><b>Variety:</b> Arabica</p><p><a href="https://earth.google.com/web/search/@4.583542,-75.770369" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/4.583542,-75.770369" target="_blank">Open in Google Maps</a></p><p><a href="https://maps.app.goo.gl/FWeALKvNKNUqCQhRA" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_25_100_m.webp" alt="Image for ID 25">
+                <div class="rendered-card-content"><p><b>Description:</b> Full sun coffee that has been frequently pruned. In this region of China, coffee can easily be confused with tea plantations.</p><p><b>Country:</b> China</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><b>Variety:</b> Arabica</p><p><a href="https://earth.google.com/web/search/@22.968151,101.466393" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/22.968151,101.466393" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_6_100_m.webp" alt="Image for ID 6">
+                <div class="rendered-card-content"><p><b>Description:</b> Robusta full-sun coffee with no intercropping. The plants are not pruned regularly and are much larger than those typically seen in Latin America.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><b>Variety:</b> Robusta</p><p><a href="https://earth.google.com/web/search/@11.731613,108.22659" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.731613,108.22659" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_5_100_m.webp" alt="Image for ID 5">
+                <div class="rendered-card-content"><p><b>Description:</b> Full-sun arabica coffee. The plants are heavily pruned and kept small, which is typical for Colombia.</p><p><b>Country:</b> Colombia</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Frequent</p><p><b>Variety:</b> Arabica</p><p><a href="https://earth.google.com/web/search/@4.924177,-75.055295" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/4.924177,-75.055295" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../images/coffee_samples/coffee_4_100_m.webp" alt="Image for ID 4">
+                <div class="rendered-card-content"><p><b>Description:</b> Full-sun coffee. Given the size of the trees, they are likely not pruned frequently and appear more "fluffy" than regularly managed trees, such as those in Latin America.</p><p><b>Country:</b> Vietnam</p><p><b>Shade level:</b> Full sun</p><p><b>Age:</b> Mature</p><p><b>Pruning:</b> Infrequent</p><p><b>Variety:</b> Robusta</p><p><a href="https://earth.google.com/web/search/@11.423228,108.075091" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.423228,108.075091" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<html>
+<head>
+    <title>Commodity Book</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .filter-container {
+            padding: 16px 16px 8px 24px;
+            text-align: left;
+        }
+        .filter-container > label,
+        .filter-container > select {
+            font-weight: normal;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .filter-container select {
+            margin: 0 12px 4px 4px;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .card-count {
+            text-align: center;
+            padding: 8px;
+            color: #555;
+            background-color: #f0f0f0;
+        }
+        .card-count:empty {
+            display: none;
+        }
+        .rendered-card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+            padding: 16px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .rendered-card-content {
+            padding: 16px;
+        }
+        .rendered-card-content p {
+            margin: 0 0 8px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="commodity-book-interactive-table">
+        
+        <div id="visible-card-count" class="card-count"></div>
+        <div class="rendered-card-container">
+            
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_1_100_m.webp" alt="Image for ID 1">
+                <div class="rendered-card-content"><p><b>Description:</b> Passion fruit with a typical grid structure. Historical imagery from 2021 shows that black pepper was previously growing on this plot.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/12.22063,107.514705" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/12.22063,107.514705" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_2_100_m.webp" alt="Image for ID 2">
+                <div class="rendered-card-content"><p><b>Description:</b> Black pepper, likely growing on living trees. Black pepper seems to be intercropped with coffee in the plots around the one at the center of the image.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/11.614478,108.160398" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.614478,108.160398" target="_blank">Open in Google Maps</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_22_100_m.webp" alt="Image for ID 22">
+                <div class="rendered-card-content"><p><b>Description:</b> Dragon fruits grow on artificial poles that are further apart than black pepper or coffee trees. These poles are often organized in a very regular grid.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/11.112175,108.164178" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/11.112175,108.164178" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@11.1120319,108.1646729,3a,39.2y,339.18h,64.14t/data=!3m8!1e1!3m6!1sAF1QipPu8NFl8MqUd2ou1Sgu9zvGaU18yBH0MUAXSwam!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPu8NFl8MqUd2ou1Sgu9zvGaU18yBH0MUAXSwam%3Dw900-h600-k-no-pi25.861382926793624-ya339.1830995200408-ro0-fo100!7i8192!8i4096?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_23_100_m.webp" alt="Image for ID 23">
+                <div class="rendered-card-content"><p><b>Description:</b> Dragon fruits grow on artificial poles that are further apart than black pepper or coffee trees. These poles are often organized in a very regular grid.</p><p><b>Country:</b> Vietnam</p><p><a href="https://earth.google.com/web/search/10.990781,108.103439" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/10.990781,108.103439" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/@10.9908236,108.1034078,265a,35y/data=!3m8!1e1!3m6!1sAF1QipPkkXbrIs3KGOh_wYzAtNIgVwqSKZ3FcnzAhm83!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPkkXbrIs3KGOh_wYzAtNIgVwqSKZ3FcnzAhm83%3Dw900-h600-k-no-pi90-ya355-ro0-fo100!7i8704!8i4352?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_88_100_m.webp" alt="Image for ID 88">
+                <div class="rendered-card-content"><p><b>Description:</b> Dragon fruits grow on artificial poles that are further apart than black pepper or coffee trees. These poles are often organized in a very regular grid.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-4.377504,120.088451" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-4.377504,120.088451" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/place/4%C2%B029'13.2%22S+119%C2%B053'12.1%22E/@-4.3774784,120.0886203,3a,75y,225.04h,73.35t/data=!3m7!1e1!3m5!1sIg8lTMgMGlKGOkyBcMDDNA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D16.64643227665229%26panoid%3DIg8lTMgMGlKGOkyBcMDDNA%26yaw%3D225.04075468001372!7i16384!8i8192!4m4!3m3!8m2!3d-4.4870055!4d119.8866968?hl=vi-VN&entry=ttu&g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+            <div class="card" >
+                <img src="../../../../images/confounding_samples/confounding_89_100_m.webp" alt="Image for ID 89">
+                <div class="rendered-card-content"><p><b>Description:</b> Dragon fruits grow on artificial poles that are further apart than black pepper or coffee trees. These poles are often organized in a very regular grid.</p><p><b>Country:</b> Indonesia</p><p><a href="https://earth.google.com/web/search/-4.365351,120.070028" target="_blank">Open in Google Earth</a></p><p><a href="https://www.google.com/maps/place/-4.365351,120.070028" target="_blank">Open in Google Maps</a></p><p><a href="https://www.google.com/maps/place/4%C2%B029'13.2%22S+119%C2%B053'12.1%22E/@-4.365587,120.0699485,3a,75y,25.89h,75.05t/data=!3m7!1e1!3m5!1smXxSelGKIxK2WF1oyLakbw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D14.947890546656467%26panoid%3DmXxSelGKIxK2WF1oyLakbw%26yaw%3D25.88746426555401!7i16384!8i8192!4m4!3m3!8m2!3d-4.4870055!4d119.8866968?hl=vi-VN&entry=ttu&g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Open in Google Street View</a></p></div>
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>

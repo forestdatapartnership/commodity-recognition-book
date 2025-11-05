@@ -1,0 +1,5269 @@
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Commodity Recognition Book</title>
+    <link>/</link>
+    <description>Recent content on Commodity Recognition Book</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Nov 2024 19:36:41 +0700</lastBuildDate>
+    
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Bushland &amp; Grassland</title>
+        <link>/cocoa_book/01_cocoa_gallery/02_confounding_samples/05_bushland/</link>
+        <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+        
+        <guid>/cocoa_book/01_cocoa_gallery/02_confounding_samples/05_bushland/</guid>
+        <description>Commodity Recognition Book /cocoa_book/01_cocoa_gallery/02_confounding_samples/05_bushland/ -&lt;h2 id=&#34;this-page-is-in-flux-do-not-copy-edit-yet--the-content-is-copied-from-the-corresponding-coffee-page&#34;&gt;&lt;strong&gt;This page is in flux; do not copy edit yet.  The content is copied from the corresponding coffee page.&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Bushland and grassland with scattered shrubs can be challenging to differentiate from coffee or cocoa systems, particularly in imagery with resolutions above 1 meter, where individual trees are not clearly visible. However, a key distinguishing feature is the lack of structured canopy organization typically associated with cultivated systems like coffee and cocoa. In high-resolution imagery, the natural, irregular arrangement of bushes and shrubs in bushland and grassland becomes apparent, contrasting with the clear planting patterns seen in agricultural systems.&lt;/p&gt;
+&lt;table class=&#34;table datatable-csv &#34; id=&#34;t-897416352&#34; itemscope itemtype=&#34;https://schema.org/Table&#34;&gt;
+&lt;caption id=&#34;table-caption-t-897416352&#34; itemprop=&#34;about&#34;&gt;&lt;b&gt;Table.&lt;/b&gt; Confounding samples&lt;/caption&gt;
+&lt;thead&gt; 
+  &lt;tr&gt;&lt;th scope=&#34;col&#34;&gt;id&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;lat&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;lon&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;description&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;imagery dates&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;link image&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;streetview link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;google earth link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;google maps link&lt;/th&gt;&lt;/tr&gt;
+  &lt;/thead&gt;
+&lt;tbody&gt;
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_33_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Some grassland can present regular linear patterns that could be misidentified as coffee. However, grassland can typically be identified based on the lack of shadows. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;33&lt;/th&gt;
+    &lt;td&gt;6.363612214&lt;/td&gt;
+    &lt;td&gt;-75.46417124&lt;/td&gt;
+    &lt;td&gt;Bushland/grassland&lt;/td&gt;
+    &lt;td&gt;15/02/2024&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@6.3633349,-75.4642804,3a,60y,24.97h,76.62t/data=!3m7!1e1!3m5!1sURbWELpIKV6aDda0JCrvig!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D13.381672159914103%26panoid%3DURbWELpIKV6aDda0JCrvig%26yaw%3D24.97050532872509!7i13312!8i6656?entry=ttu&amp;amp;g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/6.363612,-75.464171&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/6.363612,-75.464171&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_35_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Bushland can sometime present dense bushes that can be misidentified as coffee plantations. However, these areas often lack the regularity of coffee plantations. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;35&lt;/th&gt;
+    &lt;td&gt;2.182451035&lt;/td&gt;
+    &lt;td&gt;-76.87346221&lt;/td&gt;
+    &lt;td&gt;Bushland/grassland&lt;/td&gt;
+    &lt;td&gt;17/07/2024&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@2.1824311,-76.8732786,3a,60y,302.25h,127.34t/data=!3m7!1e1!3m5!1s99bu3jGpvov3eQuwffpbHA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-37.34462747258827%26panoid%3D99bu3jGpvov3eQuwffpbHA%26yaw%3D302.24547910721617!7i13312!8i6656?entry=ttu&amp;amp;g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/2.182451,-76.873462&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/2.182451,-76.873462&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_36_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Some grassland can present regular linear patterns that could be misidentified as coffee. However, grassland can typically be identified based on the lack of shadows. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;36&lt;/th&gt;
+    &lt;td&gt;-1.350756156&lt;/td&gt;
+    &lt;td&gt;-78.81227406&lt;/td&gt;
+    &lt;td&gt;Bushland/grassland&lt;/td&gt;
+    &lt;td&gt;7/9/23&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@2.1824311,-76.8732786,3a,60y,302.25h,127.34t/data=!3m7!1e1!3m5!1s99bu3jGpvov3eQuwffpbHA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-37.34462747258827%26panoid%3D99bu3jGpvov3eQuwffpbHA%26yaw%3D302.24547910721617!7i13312!8i6656?entry=ttu&amp;amp;g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-1.350756,-78.812274&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-1.350756,-78.812274&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_37_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Bushland can sometime present dense secondary vegetation that can be misidentified as coffee plantations. However, these areas often lack the regularity of coffee plantations. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;37&lt;/th&gt;
+    &lt;td&gt;-1.326828573&lt;/td&gt;
+    &lt;td&gt;-78.75510453&lt;/td&gt;
+    &lt;td&gt;Bushland/grassland&lt;/td&gt;
+    &lt;td&gt;7/9/23&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@-1.3269711,-78.7548527,3a,60y,288.55h,77.19t/data=!3m7!1e1!3m5!1s6hL6Z0Neidzjt0JG4YOt4A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D12.806928273706532%26panoid%3D6hL6Z0Neidzjt0JG4YOt4A%26yaw%3D288.5537604398816!7i13312!8i6656?entry=ttu&amp;amp;g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-1.326829,-78.755105&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-1.326829,-78.755105&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_38_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Some grassland can present regular linear patterns that could be misidentified as coffee. However, grassland can typically be identified based on the lack of shadows. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;38&lt;/th&gt;
+    &lt;td&gt;-1.324147951&lt;/td&gt;
+    &lt;td&gt;-78.66993711&lt;/td&gt;
+    &lt;td&gt;Bushland/grassland&lt;/td&gt;
+    &lt;td&gt;13/08/2022&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@-1.3242901,-78.6698019,3a,60y,338.76h,76.02t/data=!3m7!1e1!3m5!1shlLLkwa3hO_KavTz_LSkTQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D13.981944800077443%26panoid%3DhlLLkwa3hO_KavTz_LSkTQ%26yaw%3D338.76282110302833!7i13312!8i6656?entry=ttu&amp;amp;g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-1.324148,-78.669937&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-1.324148,-78.669937&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_40_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Bushland in arid landscapes can have patterns that can be misidentified as coffee plantations. However, these areas often lack the regularity of coffee plantations. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;40&lt;/th&gt;
+    &lt;td&gt;14.10995393&lt;/td&gt;
+    &lt;td&gt;-15.71844939&lt;/td&gt;
+    &lt;td&gt;Bushland/grassland&lt;/td&gt;
+    &lt;td&gt;11/3/23&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/14.109954,-15.718449&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/14.109954,-15.718449&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+- /cocoa_book/01_cocoa_gallery/02_confounding_samples/05_bushland/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Bushland and Grassland</title>
+        <link>/coffee_book/01_coffee_gallery/02_confounding_samples/05_bushland/</link>
+        <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+        
+        <guid>/coffee_book/01_coffee_gallery/02_confounding_samples/05_bushland/</guid>
+        <description>Commodity Recognition Book /coffee_book/01_coffee_gallery/02_confounding_samples/05_bushland/ -&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Bushland and grassland with scattered shrubs can be challenging to differentiate from coffee or cocoa systems, particularly in imagery with resolutions above one meter, where individual trees are not clearly visible. However, a key distinguishing feature is the lack of structured canopy organization typically associated with cultivated systems like coffee and cocoa. In high-resolution imagery, the natural, irregular arrangement of bushes and shrubs in bushland and grassland becomes apparent, contrasting with the clear planting patterns seen in agricultural systems.&lt;/p&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;table class=&#34;table datatable-csv &#34; id=&#34;t-864153972&#34; itemscope itemtype=&#34;https://schema.org/Table&#34;&gt;
+
+&lt;thead&gt; 
+  &lt;tr&gt;&lt;th scope=&#34;col&#34;&gt;id&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;lat&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;lon&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;description&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;imagery dates&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;link image&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;streetview link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;google earth link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;google maps link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;country&lt;/th&gt;&lt;/tr&gt;
+  &lt;/thead&gt;
+&lt;tbody&gt;
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_33_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Some grassland can present regular linear patterns that could be misidentified as coffee. However, grassland can typically be identified based on the lack of shadows. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;33&lt;/th&gt;
+    &lt;td&gt;6.363612214&lt;/td&gt;
+    &lt;td&gt;-75.46417124&lt;/td&gt;
+    &lt;td&gt;Bushland/grassland&lt;/td&gt;
+    &lt;td&gt;15/02/2024&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@6.3633349,-75.4642804,3a,60y,24.97h,76.62t/data=!3m7!1e1!3m5!1sURbWELpIKV6aDda0JCrvig!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D13.381672159914103%26panoid%3DURbWELpIKV6aDda0JCrvig%26yaw%3D24.97050532872509!7i13312!8i6656?entry=ttu&amp;amp;g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/6.363612,-75.464171&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/6.363612,-75.464171&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Colombia&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_35_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Bushland can sometime present dense bushes that can be misidentified as coffee plantations. However, these areas often lack the regularity of coffee plantations. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;35&lt;/th&gt;
+    &lt;td&gt;2.182451035&lt;/td&gt;
+    &lt;td&gt;-76.87346221&lt;/td&gt;
+    &lt;td&gt;Bushland/grassland&lt;/td&gt;
+    &lt;td&gt;17/07/2024&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@2.1824311,-76.8732786,3a,60y,302.25h,127.34t/data=!3m7!1e1!3m5!1s99bu3jGpvov3eQuwffpbHA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-37.34462747258827%26panoid%3D99bu3jGpvov3eQuwffpbHA%26yaw%3D302.24547910721617!7i13312!8i6656?entry=ttu&amp;amp;g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/2.182451,-76.873462&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/2.182451,-76.873462&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Colombia&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_36_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Some grassland can present regular linear patterns that could be misidentified as coffee. However, grassland can typically be identified based on the lack of shadows. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;36&lt;/th&gt;
+    &lt;td&gt;-1.350756156&lt;/td&gt;
+    &lt;td&gt;-78.81227406&lt;/td&gt;
+    &lt;td&gt;Bushland/grassland&lt;/td&gt;
+    &lt;td&gt;7/9/23&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@2.1824311,-76.8732786,3a,60y,302.25h,127.34t/data=!3m7!1e1!3m5!1s99bu3jGpvov3eQuwffpbHA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-37.34462747258827%26panoid%3D99bu3jGpvov3eQuwffpbHA%26yaw%3D302.24547910721617!7i13312!8i6656?entry=ttu&amp;amp;g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-1.350756,-78.812274&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-1.350756,-78.812274&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ecuador&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_37_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Bushland can sometime present dense secondary vegetation that can be misidentified as coffee plantations. However, these areas often lack the regularity of coffee plantations. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;37&lt;/th&gt;
+    &lt;td&gt;-1.326828573&lt;/td&gt;
+    &lt;td&gt;-78.75510453&lt;/td&gt;
+    &lt;td&gt;Bushland/grassland&lt;/td&gt;
+    &lt;td&gt;7/9/23&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@-1.3269711,-78.7548527,3a,60y,288.55h,77.19t/data=!3m7!1e1!3m5!1s6hL6Z0Neidzjt0JG4YOt4A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D12.806928273706532%26panoid%3D6hL6Z0Neidzjt0JG4YOt4A%26yaw%3D288.5537604398816!7i13312!8i6656?entry=ttu&amp;amp;g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-1.326829,-78.755105&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-1.326829,-78.755105&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ecuador&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_38_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Some grassland can present regular linear patterns that could be misidentified as coffee. However, grassland can typically be identified based on the lack of shadows. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;38&lt;/th&gt;
+    &lt;td&gt;-1.324147951&lt;/td&gt;
+    &lt;td&gt;-78.66993711&lt;/td&gt;
+    &lt;td&gt;Bushland/grassland&lt;/td&gt;
+    &lt;td&gt;13/08/2022&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@-1.3242901,-78.6698019,3a,60y,338.76h,76.02t/data=!3m7!1e1!3m5!1shlLLkwa3hO_KavTz_LSkTQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D13.981944800077443%26panoid%3DhlLLkwa3hO_KavTz_LSkTQ%26yaw%3D338.76282110302833!7i13312!8i6656?entry=ttu&amp;amp;g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-1.324148,-78.669937&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-1.324148,-78.669937&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ecuador&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_40_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Bushland in arid landscapes can have patterns that can be misidentified as coffee plantations. However, these areas often lack the regularity of coffee plantations. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;40&lt;/th&gt;
+    &lt;td&gt;14.10995393&lt;/td&gt;
+    &lt;td&gt;-15.71844939&lt;/td&gt;
+    &lt;td&gt;Bushland/grassland&lt;/td&gt;
+    &lt;td&gt;11/3/23&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/14.109954,-15.718449&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/14.109954,-15.718449&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Senegal&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+- /coffee_book/01_coffee_gallery/02_confounding_samples/05_bushland/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Cocoa Tree Characteristics</title>
+        <link>/cocoa_book/02_cocoa_cultivation/05_cocoa_appearance/</link>
+        <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+        
+        <guid>/cocoa_book/02_cocoa_cultivation/05_cocoa_appearance/</guid>
+        <description>Commodity Recognition Book /cocoa_book/02_cocoa_cultivation/05_cocoa_appearance/ -&lt;p&gt;Cocoa trees are medium-sized, with mature heights typically ranging from four to eight meters, though some trees may grow as tall as twelve meters in favorable conditions.  The tree has large, leathery leaves that are arranged alternately in a flat, two-row (distichous) pattern along the branches. The leaves are oval to elliptical in shape, measuring between 12 and 60 cm in length and between 4 and 20 cm in width. Leaf tips are pointed, and the bases are usually rounded or heart-shaped.&lt;/p&gt;
+&lt;p&gt;One of the most distinctive visual features is the color of young leaves, or flushes, which emerge reddish-pink before gradually turning light green as they mature.&lt;/p&gt;
+&lt;h2 id=&#34;a-few-samples&#34;&gt;A few samples&lt;/h2&gt;
+&lt;table class=&#34;table datatable-csv &#34; id=&#34;t-892561437&#34; itemscope itemtype=&#34;https://schema.org/Table&#34;&gt;
+
+&lt;thead&gt; 
+  &lt;tr&gt;&lt;th scope=&#34;col&#34;&gt;id&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;lat&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;lon&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;topic&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;cocoa planting pattern&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;shade planting pattern&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;shade level&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;age&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;pruning&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;plot boundaries&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;intercrop&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;special pattern&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;imagery date&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;streetview link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;google earth link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;google maps link&lt;/th&gt;&lt;/tr&gt;
+  &lt;/thead&gt;
+&lt;tbody&gt;
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=10&gt;&lt;img src=&#34;../../images/cocoa_samples/cocoa_29_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Ghana &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;29&lt;/th&gt;
+    &lt;td&gt;6.69890334&lt;/td&gt;
+    &lt;td&gt;-2.23953014&lt;/td&gt;
+    &lt;td&gt;Plot boundaries&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Low&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Unclear&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;4/23/21&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@6.698903,-2.23953&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/6.698903,-2.23953&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=10&gt;&lt;img src=&#34;../../images/cocoa_samples/cocoa_30_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Ghana &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;30&lt;/th&gt;
+    &lt;td&gt;6.777395&lt;/td&gt;
+    &lt;td&gt;-2.185375&lt;/td&gt;
+    &lt;td&gt;Plot boundaries&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Low&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Unclear&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;4/23/21&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@6.777395,-2.185375&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/6.777395,-2.185375&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=10&gt;&lt;img src=&#34;../../images/cocoa_samples/cocoa_31_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Ghana &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;31&lt;/th&gt;
+    &lt;td&gt;6.63949689&lt;/td&gt;
+    &lt;td&gt;-2.47133791&lt;/td&gt;
+    &lt;td&gt;Plot boundaries&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Low&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Unclear&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;12/12/15&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@6.639497,-2.471338&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/6.639497,-2.471338&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=10&gt;&lt;img src=&#34;../../images/cocoa_samples/cocoa_32_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Ghana &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;32&lt;/th&gt;
+    &lt;td&gt;6.53212462&lt;/td&gt;
+    &lt;td&gt;-2.47905344&lt;/td&gt;
+    &lt;td&gt;Plot boundaries&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Low&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Unclear&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;2/12/18&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@6.532125,-2.479053&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/6.532125,-2.479053&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=10&gt;&lt;img src=&#34;../../images/cocoa_samples/cocoa_34_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Ghana &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;34&lt;/th&gt;
+    &lt;td&gt;6.8310052&lt;/td&gt;
+    &lt;td&gt;-2.2880488&lt;/td&gt;
+    &lt;td&gt;Cocoa planting pattern&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Frequent&lt;/td&gt;
+    &lt;td&gt;Unclear&lt;/td&gt;
+    &lt;td&gt;No weeding&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;12/24/24&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@6.831005,-2.288049&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/6.831005,-2.288049&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=10&gt;&lt;img src=&#34;../../images/cocoa_samples/cocoa_43_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Vietnam &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;43&lt;/th&gt;
+    &lt;td&gt;11.37652552&lt;/td&gt;
+    &lt;td&gt;107.3698343&lt;/td&gt;
+    &lt;td&gt;Shade level&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;Medium&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Unclear&lt;/td&gt;
+    &lt;td&gt;Cover crop&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;1/22/24&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/Ca&amp;#43;cao&amp;#43;T%C3%A0&amp;#43;L%C3%A0i/@11.3765319,107.369368,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgIDexJ7gmgE!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FAC9h4nqhX_xsRaEcNcorp6t9Hndtej0mK17rEJfOMGGcKXd1vLn3A9TbfGzGihrzJEzA-3ntBk_gIC4ea6JdE1vN_IlPY9LnKblIP81pjjFtNZJSLMHt1TZom2zSKFcmq1P6lSUvViCWgQ%3Dw114-h86-k-no!7i4000!8i3000!4m13!1m5!3m4!2zMTHCsDIyJzM1LjQiTiAxMDfCsDIyJzExLjMiRQ!8m2!3d11.3764922!4d107.3697989!3m6!1s0x31747cba3f8dcdb3:0xe0487b8947ad7f60!8m2!3d11.3765319!4d107.369368!10e5!16s%2Fg%2F11hcyvd1fl?hl=vi-VN&amp;amp;entry=ttu&amp;amp;g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@11.376526,107.369834&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/11.376526,107.369834&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+- /cocoa_book/02_cocoa_cultivation/05_cocoa_appearance/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Pruning Practices</title>
+        <link>/coffee_book/02_coffee_cultivation/05_pruning/</link>
+        <pubDate>Sat, 23 Nov 2024 19:35:41 +0700</pubDate>
+        
+        <guid>/coffee_book/02_coffee_cultivation/05_pruning/</guid>
+        <description>Commodity Recognition Book /coffee_book/02_coffee_cultivation/05_pruning/ -&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Pruning is a common practice in coffee cultivation, typically performed annually after the harvest to maintain tree structure and optimize productivity, though its intensity and frequency vary across regions.  In Colombia, for example, coffee trees are pruned frequently and kept short, maintaining a bush-like shape at around 1.5 meters in height. Conversely, in Vietnam, coffee trees are less frequently pruned and can grow taller, often exceeding two meters. These differences are evident in high-resolution imagery: heavily pruned coffee plantations display a more defined row pattern with visible soil between trees, whereas less frequently pruned systems exhibit a denser canopy, with larger, rounder, and &amp;ldquo;fluffier&amp;rdquo; tree crowns.&lt;/p&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;table class=&#34;table datatable-csv &#34; id=&#34;t-536418927&#34; itemscope itemtype=&#34;https://schema.org/Table&#34;&gt;
+
+&lt;thead&gt; 
+  &lt;tr&gt;&lt;th scope=&#34;col&#34;&gt;id&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;lat&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;lon&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;topic&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;coffee planting pattern&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;shade planting pattern&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;shade level&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;age&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;pruning&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;variety&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;intercrop&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;irrigation&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;special pattern&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;slope artifact&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;imagery date&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;streetview link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;google earth link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;google maps link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;country&lt;/th&gt;&lt;/tr&gt;
+  &lt;/thead&gt;
+&lt;tbody&gt;
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_4_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Full-sun coffee. Given the size of the trees, they are likely not pruned frequently and appear more &amp;#34;fluffy&amp;#34; than regularly managed trees, such as those in Latin America. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;4&lt;/th&gt;
+    &lt;td&gt;11.42322819&lt;/td&gt;
+    &lt;td&gt;108.075091&lt;/td&gt;
+    &lt;td&gt;Prunning&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;No visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;1/21/20&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@11.423228,108.075091&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/11.423228,108.075091&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_5_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Full-sun arabica coffee. The plants are heavily pruned and kept small, which is typical for Colombia. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;5&lt;/th&gt;
+    &lt;td&gt;4.92417749&lt;/td&gt;
+    &lt;td&gt;-75.05529549&lt;/td&gt;
+    &lt;td&gt;Prunning&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Frequent&lt;/td&gt;
+    &lt;td&gt;Arabica&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;No visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;8/1/13&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@4.924177,-75.055295&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/4.924177,-75.055295&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Colombia&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_6_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Robusta full-sun coffee with no intercropping. The plants are not pruned regularly and are much larger than those typically seen in Latin America. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;6&lt;/th&gt;
+    &lt;td&gt;11.73161324&lt;/td&gt;
+    &lt;td&gt;108.2265897&lt;/td&gt;
+    &lt;td&gt;Variety&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;No visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;12/27/19&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@11.731613,108.22659&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/11.731613,108.22659&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_25_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Full sun coffee that has been frequently pruned. In this region of China, coffee can easily be confused with tea plantations. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;25&lt;/th&gt;
+    &lt;td&gt;22.9681511&lt;/td&gt;
+    &lt;td&gt;101.466393&lt;/td&gt;
+    &lt;td&gt;Coffee planting pattern&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Frequent&lt;/td&gt;
+    &lt;td&gt;Arabica&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;No visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;2/22/17&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@22.968151,101.466393&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/22.968151,101.466393&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;China&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_38_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Full sun plantation of frequently pruned arabica coffee. This large plantation is very densely planted. South of this plantation is a banana/plantain plantation. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;38&lt;/th&gt;
+    &lt;td&gt;4.583542&lt;/td&gt;
+    &lt;td&gt;-75.770369&lt;/td&gt;
+    &lt;td&gt;Coffee planting pattern&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Frequent&lt;/td&gt;
+    &lt;td&gt;Arabica&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;No visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;4/11/24&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://maps.app.goo.gl/FWeALKvNKNUqCQhRA&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@4.583542,-75.770369&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/4.583542,-75.770369&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Colombia&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_61_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Large full-sun plantation of frequently-pruned coffee trees. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;61&lt;/th&gt;
+    &lt;td&gt;10.08029421&lt;/td&gt;
+    &lt;td&gt;-84.1574558&lt;/td&gt;
+    &lt;td&gt;Shade level&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Frequent&lt;/td&gt;
+    &lt;td&gt;Arabica&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;No visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;2/24/24&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@10.080294,-84.157456&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/10.080294,-84.157456&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Costa Rica&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_66_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Full-sun coffee system with regular rows of frequently-pruned coffee trees. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;66&lt;/th&gt;
+    &lt;td&gt;10.11584667&lt;/td&gt;
+    &lt;td&gt;-84.3851851&lt;/td&gt;
+    &lt;td&gt;Shade level&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Frequent&lt;/td&gt;
+    &lt;td&gt;Arabica&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;No visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;9/25/23&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@10.115847,-84.385185&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/10.115847,-84.385185&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Costa Rica&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_76_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Full sun robusta coffee. The trees are infrequently pruned and are larger than what can be seen in Latin America. While the plots nearby are intercropped, this particular plot is not. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;76&lt;/th&gt;
+    &lt;td&gt;11.67934799&lt;/td&gt;
+    &lt;td&gt;107.8081668&lt;/td&gt;
+    &lt;td&gt;Prunning&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;No visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;12/14/23&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@11.679348,107.808167&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/11.679348,107.808167&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_77_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Full sun robusta coffee. The trees are infrequently pruned and are larger than what can be seen in Latin America. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;77&lt;/th&gt;
+    &lt;td&gt;11.68396009&lt;/td&gt;
+    &lt;td&gt;107.8033835&lt;/td&gt;
+    &lt;td&gt;Prunning&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;No visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;12/14/23&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@11.68396,107.803383&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/11.68396,107.803383&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_78_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Full sun robusta coffee. The trees are infrequently pruned and are larger than what can be seen in Latin America. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;78&lt;/th&gt;
+    &lt;td&gt;11.70590858&lt;/td&gt;
+    &lt;td&gt;107.9172407&lt;/td&gt;
+    &lt;td&gt;Prunning&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;No visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;12/27/23&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@11.705909,107.917241&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/11.705909,107.917241&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_80_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Frequently-pruned arabica coffee with a low shade tree density. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;80&lt;/th&gt;
+    &lt;td&gt;2.61492661&lt;/td&gt;
+    &lt;td&gt;-76.52515565&lt;/td&gt;
+    &lt;td&gt;Prunning&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Low&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Frequent&lt;/td&gt;
+    &lt;td&gt;Arabica&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;No visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;9/1/23&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@2.614927,-76.525156&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/2.614927,-76.525156&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Colombia&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_81_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Frequently-pruned and full-sun arabica coffee. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;81&lt;/th&gt;
+    &lt;td&gt;2.01411337&lt;/td&gt;
+    &lt;td&gt;-76.07536472&lt;/td&gt;
+    &lt;td&gt;Prunning&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Frequent&lt;/td&gt;
+    &lt;td&gt;Arabica&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;No visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;11/9/20&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@2.014113,-76.075365&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/2.014113,-76.075365&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Colombia&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_85_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Frequently-pruned arabica coffee with a low shade tree density. Weeding seems to be performed infrequently. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;85&lt;/th&gt;
+    &lt;td&gt;4.59628763&lt;/td&gt;
+    &lt;td&gt;-75.62902973&lt;/td&gt;
+    &lt;td&gt;Variety&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Low&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Frequent&lt;/td&gt;
+    &lt;td&gt;Arabica&lt;/td&gt;
+    &lt;td&gt;No weeding&lt;/td&gt;
+    &lt;td&gt;No visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;6/18/23&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@4.596288,-75.62903&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/4.596288,-75.62903&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Colombia&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_89_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Robusta coffee infrequently pruned in a moderately shaded agroforestry system. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;89&lt;/th&gt;
+    &lt;td&gt;12.78638882&lt;/td&gt;
+    &lt;td&gt;107.9346513&lt;/td&gt;
+    &lt;td&gt;Variety&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;Medium&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;No visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;12/11/22&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@12.786389,107.934651&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/12.786389,107.934651&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_101_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Frequently pruned coffee trees in a full-sun system. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;101&lt;/th&gt;
+    &lt;td&gt;-1.022171253&lt;/td&gt;
+    &lt;td&gt;36.97077195&lt;/td&gt;
+    &lt;td&gt;Coffee planting pattern&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Unknown&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;No visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;2/27/24&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@-1.022171,36.970772&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-1.022171,36.970772&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kenya&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_102_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Frequently pruned coffee trees in a low density shading system. The shade trees were planted together with the coffee and are likely productive trees. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;102&lt;/th&gt;
+    &lt;td&gt;-1.032962613&lt;/td&gt;
+    &lt;td&gt;36.98726523&lt;/td&gt;
+    &lt;td&gt;Shade planting pattern&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;Medium&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Unknown&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;No visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;2/27/24&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@-1.032963,36.987265&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-1.032963,36.987265&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kenya&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+- /coffee_book/02_coffee_cultivation/05_pruning/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Seasonal crops</title>
+        <link>/cocoa_book/01_cocoa_gallery/02_confounding_samples/06_seasonal/</link>
+        <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+        
+        <guid>/cocoa_book/01_cocoa_gallery/02_confounding_samples/06_seasonal/</guid>
+        <description>Commodity Recognition Book /cocoa_book/01_cocoa_gallery/02_confounding_samples/06_seasonal/ -&lt;h2 id=&#34;this-page-is-in-flux-do-not-copy-edit-yet--the-content-is-copied-from-the-corresponding-coffee-page&#34;&gt;&lt;strong&gt;This page is in flux; do not copy edit yet.  The content is copied from the corresponding coffee page.&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Seasonal agriculture can sometimes include crops with tall plants, such as cassava and sugarcane, which may resemble coffee systems due to their height and structure. However, seasonal agriculture typically exhibits a more uniform canopy compared to the often heterogeneous canopy of coffee. The defining characteristic of seasonal agriculture is its strong phenology, marked by rapid growth and harvesting cycles, usually completed within a year.&lt;/p&gt;
+&lt;p&gt;Fallow lands are often covered with secondary vegetation composed of small bushes, which can sometimes be misinterpreted as cocoa or coffee plantations. However, unlike tree crops, fallow lands typically lack a clear and organized canopy structure. Another key indicator for identifying fallow lands is their alternation with seasonal agriculture in a recurring cycle.&lt;/p&gt;
+&lt;table class=&#34;table datatable-csv &#34; id=&#34;t-972134586&#34; itemscope itemtype=&#34;https://schema.org/Table&#34;&gt;
+&lt;caption id=&#34;table-caption-t-972134586&#34; itemprop=&#34;about&#34;&gt;&lt;b&gt;Table.&lt;/b&gt; Confounding samples&lt;/caption&gt;
+&lt;thead&gt; 
+  &lt;tr&gt;&lt;th scope=&#34;col&#34;&gt;id&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;lat&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;lon&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;description&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;imagery dates&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;link image&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;streetview link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;google earth link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;google maps link&lt;/th&gt;&lt;/tr&gt;
+  &lt;/thead&gt;
+&lt;tbody&gt;
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_10_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Some perennial crops are grown on an annual basis, in this case cassava. The planting pattern can be very similar to coffee, however the rows are closer together and the canopy is more homogenous. The use of time series can show the frequent harvest of the crop. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;10&lt;/th&gt;
+    &lt;td&gt;-5.059789131&lt;/td&gt;
+    &lt;td&gt;105.3603344&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;27/03/2023&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@-5.0595637,105.3603098,3a,60y,144.03h,77.45t/data=!3m7!1e1!3m5!1sqZ6D_VDuALtrJ9nzuXaGrw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D12.548131830114869%26panoid%3DqZ6D_VDuALtrJ9nzuXaGrw%26yaw%3D144.03467377240852!7i16384!8i8192?entry=ttu&amp;amp;g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-5.059789,105.360334&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-5.059789,105.360334&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_12_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Seasonal agriculture can display patterns that are similar to coffee plantations and in some cases can also be grown with shade trees within the plot. However, here one can identify rows that are close to each other and an homogenous canopy, which are indicative of seasonal agriculture.. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;12&lt;/th&gt;
+    &lt;td&gt;14.28806209&lt;/td&gt;
+    &lt;td&gt;-89.40918841&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;30/07/2023&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@14.2879088,-89.4093389,3a,43.9y,63.5h,82.32t/data=!3m7!1e1!3m5!1sAF1QipPROl6TlZB1sJje6TTcEwaLpvrb7W7vpcb4ZLLR!2e10!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPROl6TlZB1sJje6TTcEwaLpvrb7W7vpcb4ZLLR%3Dw900-h600-k-no-pi7.678503659807447-ya70.44704878640675-ro0-fo100!7i7680!8i3840?entry=ttu&amp;amp;g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/14.288062,-89.409188&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/14.288062,-89.409188&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_15_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Fallow lands can have regrowth of secondary bush-like vegetation that can resemble coffee. However, these bushes do not follow an organized pattern such as the one seen in coffee plantations &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;15&lt;/th&gt;
+    &lt;td&gt;-9.774922383&lt;/td&gt;
+    &lt;td&gt;-75.00807588&lt;/td&gt;
+    &lt;td&gt;Fallow&lt;/td&gt;
+    &lt;td&gt;9/8/24&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@-9.7752459,-75.0083024,3a,60y,114.76h,89.88t/data=!3m7!1e1!3m5!1sh6SWPbY3LmeQeUbHbfzmkg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0.11652965855100206%26panoid%3Dh6SWPbY3LmeQeUbHbfzmkg%26yaw%3D114.76270278767792!7i16384!8i8192?entry=ttu&amp;amp;g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-9.774922,-75.008076&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-9.774922,-75.008076&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_17_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Fallow lands can have regrowth of secondary bush-like vegetation that can resemble coffee. However, these bushes do not follow an organized pattern such as the one seen in coffee plantations &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;17&lt;/th&gt;
+    &lt;td&gt;-31.5048809&lt;/td&gt;
+    &lt;td&gt;-52.91163879&lt;/td&gt;
+    &lt;td&gt;Fallow&lt;/td&gt;
+    &lt;td&gt;30/07/2023&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@-31.505101,-52.9116945,3a,60y,8.04h,85.24t/data=!3m7!1e1!3m5!1sxCNkKypFYUwXMi9yzyZMpQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D4.757511278696384%26panoid%3DxCNkKypFYUwXMi9yzyZMpQ%26yaw%3D8.038079971323265!7i16384!8i8192?entry=ttu&amp;amp;g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-31.504881,-52.911639&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-31.504881,-52.911639&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_24_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Some perennial crops are grown on an annual basis, in this case cassava. The planting pattern can be very similar to coffee, however the rows are closer together and the canopy is more homogenous. The use of time series can show the frequent harvest of the crop. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;24&lt;/th&gt;
+    &lt;td&gt;-5.190842182&lt;/td&gt;
+    &lt;td&gt;105.3504143&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;27/03/2023&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@-5.1907297,105.3503769,3a,60y,155.79h,80.47t/data=!3m7!1e1!3m5!1s9PhlJahS0d8jb3n_OO8Sig!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D9.53348942609685%26panoid%3D9PhlJahS0d8jb3n_OO8Sig%26yaw%3D155.78742751844052!7i16384!8i8192?entry=ttu&amp;amp;g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-5.190842,105.350414&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-5.190842,105.350414&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_25_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Seasonal agriculture, rice in this case, can display canopy similar to coffee. However, the planting pattern is much tighter and the canopy is often much more homogenous than would be typical of coffee plantations. Time-series analysis can highlight the annual life cycle of such crops. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;25&lt;/th&gt;
+    &lt;td&gt;-5.163660428&lt;/td&gt;
+    &lt;td&gt;105.3106262&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;27/03/2023&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@-5.1638353,105.3105937,3a,60y,90t/data=!3m7!1e1!3m5!1sYnG_C1sTSQmR3Zh3AtWdtQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DYnG_C1sTSQmR3Zh3AtWdtQ%26yaw%3D0!7i16384!8i8192?entry=ttu&amp;amp;g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-5.16366,105.310626&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-5.16366,105.310626&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_42_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Seasonal agriculture can display canopy similar to coffee. However, the planting pattern is much tighter and the canopy is often much more homogenous than would be typical of coffee plantations. Time-series analysis can highlight the annual life cycle of such crops. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;42&lt;/th&gt;
+    &lt;td&gt;12.85070152&lt;/td&gt;
+    &lt;td&gt;-15.02780761&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;3/10/23&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/12.850702,-15.027808&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/12.850702,-15.027808&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_47_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; In some cases, seasonal agriculture can be grown with shade trees within or around the plot, which can be similar to agroforestry. However, the planting pattern is much tighter and the canopy is often much more homogenous. Time-series analysis can easily highlight the annual life cycle of such crops. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;47&lt;/th&gt;
+    &lt;td&gt;-1.195833042&lt;/td&gt;
+    &lt;td&gt;37.37056471&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;27/05/2024&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-1.195833,37.370565&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-1.195833,37.370565&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_87_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Seasonal agriculture, in this case maize, can display patterns than resemble coffee plantations, and in some cases can be grown with shade trees within the plot. However, one can identify rows that are closer to each other and a more homogenous canopy than would be typical of coffee plantations. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;87&lt;/th&gt;
+    &lt;td&gt;-4.4880281&lt;/td&gt;
+    &lt;td&gt;120.0125875&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;22/02/2025&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/4%C2%B029%2713.2%22S&amp;#43;119%C2%B053%2712.1%22E/@-4.4879352,120.0123628,3a,75y,122.63h,90t/data=!3m7!1e1!3m5!1sO_ZRoixN8mB7UNyoXYEf4g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DO_ZRoixN8mB7UNyoXYEf4g%26yaw%3D122.62972280373474!7i16384!8i8192!4m4!3m3!8m2!3d-4.4870055!4d119.8866968?hl=vi-VN&amp;amp;entry=ttu&amp;amp;g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-4.488028,120.012588&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-4.488028,120.012588&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_91_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Seasonal agriculture, in this case maize, can display patterns than resemble coffee plantations, and in some cases can be grown with shade trees within the plot. However, one can identify rows that are closer to each other and a more homogenous canopy than would be typical of coffee plantations. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;91&lt;/th&gt;
+    &lt;td&gt;-3.356624&lt;/td&gt;
+    &lt;td&gt;120.3804683&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;25/09/2024&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/3%C2%B025%2753.6%22S&amp;#43;120%C2%B021%2718.2%22E/@-3.356604,120.3806656,3a,75y,291.95h,91.68t/data=!3m7!1e1!3m5!1s0Vei-eV9X-YvzN74DYa15w!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-1.6829314011852858%26panoid%3D0Vei-eV9X-YvzN74DYa15w%26yaw%3D291.95412195249287!7i16384!8i8192!4m4!3m3!8m2!3d-3.4315521!4d120.3550496?hl=vi-VN&amp;amp;entry=ttu&amp;amp;g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-3.356624,120.380468&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-3.356624,120.380468&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_93_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Seasonal agriculture, in this case maize, can display patterns than resemble coffee plantations, and in some cases can be grown with shade trees within the plot. However, one can identify rows that are closer to each other and a more homogenous canopy than would be typical of coffee plantations. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;93&lt;/th&gt;
+    &lt;td&gt;6.572831088&lt;/td&gt;
+    &lt;td&gt;0.369598606&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;11/12/23&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/Le&amp;#43;Katoum/@6.5731087,0.3696789,3a,75y,266.17h,90t/data=!3m7!1e1!3m5!1s6OOqFqLFMOEYDDX8fluVFw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3D6OOqFqLFMOEYDDX8fluVFw%26yaw%3D266.1659957240007!7i13312!8i6656!4m15!1m5!3m4!2zNsKwMDknNTYuNSJOIDDCsDE3JzQwLjEiVw!8m2!3d6.1656804!4d-0.2944627!3m8!1s0xf96487f59b06721:0xf11e5a7b83757eda!5m2!4m1!1i2!8m2!3d4.6568867!4d-6.9207684!16s%2Fg%2F1hg4vwq14?hl=vi-VN&amp;amp;entry=ttu&amp;amp;g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/6.572831,0.369599&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/6.572831,0.369599&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_101_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Some perennial crops are grown on an annual basis, in this case cassava. The planting pattern can be very similar to coffee, however the rows are closer together and the canopy is more homogenous. The use of time series can show the frequent harvest of the crop. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;101&lt;/th&gt;
+    &lt;td&gt;-14.5885944&lt;/td&gt;
+    &lt;td&gt;-39.5575995&lt;/td&gt;
+    &lt;td&gt;Cassava &lt;/td&gt;
+    &lt;td&gt;15/06/2024&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-14.588594,-39.5576&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-14.588594,-39.5576&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_110_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Some perennial crops are grown on an annual basis, in this case cassava. The planting pattern can be very similar to coffee, however the rows are closer together and the canopy is more homogenous. The use of time series can show the frequent harvest of the crop. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;110&lt;/th&gt;
+    &lt;td&gt;10.017489&lt;/td&gt;
+    &lt;td&gt;76.93008&lt;/td&gt;
+    &lt;td&gt;Cassava&lt;/td&gt;
+    &lt;td&gt;6/4/25&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://maps.app.goo.gl/y8NzzoPb5arJz5px9&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/10.017489,76.93008&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/10.017489,76.93008&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+- /cocoa_book/01_cocoa_gallery/02_confounding_samples/06_seasonal/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Seasonal Crops</title>
+        <link>/coffee_book/01_coffee_gallery/02_confounding_samples/06_seasonal/</link>
+        <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+        
+        <guid>/coffee_book/01_coffee_gallery/02_confounding_samples/06_seasonal/</guid>
+        <description>Commodity Recognition Book /coffee_book/01_coffee_gallery/02_confounding_samples/06_seasonal/ -&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Seasonal agriculture can sometimes include crops with tall plants, such as cassava and sugarcane, which may resemble coffee systems. However, seasonal agriculture typically exhibits a more uniform canopy compared to the often heterogeneous canopy of coffee. The defining characteristic of seasonal agriculture is its strong phenology, marked by rapid growth and harvesting cycles, usually completed within a year.&lt;/p&gt;
+&lt;p&gt;Fallow lands (i.e., fields left unplanted for one or more seasons) are often covered with secondary vegetation composed of small bushes, which can sometimes be misinterpreted as cocoa or coffee plantations. However, unlike tree crops, fallow lands typically lack a clear and organized canopy structure. Another key indicator for identifying fallow lands is their alternation with seasonal agriculture in a recurring cycle.&lt;/p&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;table class=&#34;table datatable-csv &#34; id=&#34;t-952184736&#34; itemscope itemtype=&#34;https://schema.org/Table&#34;&gt;
+
+&lt;thead&gt; 
+  &lt;tr&gt;&lt;th scope=&#34;col&#34;&gt;id&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;lat&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;lon&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;description&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;imagery dates&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;link image&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;streetview link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;google earth link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;google maps link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;country&lt;/th&gt;&lt;/tr&gt;
+  &lt;/thead&gt;
+&lt;tbody&gt;
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_10_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Some perennial crops are grown on an annual basis, in this case cassava. The planting pattern can be very similar to coffee, however the rows are closer together and the canopy is more homogenous. The use of time series can show the frequent harvest of the crop. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;10&lt;/th&gt;
+    &lt;td&gt;-5.059789131&lt;/td&gt;
+    &lt;td&gt;105.3603344&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;27/03/2023&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@-5.0595637,105.3603098,3a,60y,144.03h,77.45t/data=!3m7!1e1!3m5!1sqZ6D_VDuALtrJ9nzuXaGrw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D12.548131830114869%26panoid%3DqZ6D_VDuALtrJ9nzuXaGrw%26yaw%3D144.03467377240852!7i16384!8i8192?entry=ttu&amp;amp;g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-5.059789,105.360334&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-5.059789,105.360334&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Indonesia&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_12_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Seasonal agriculture can display patterns that are similar to coffee plantations and in some cases can also be grown with shade trees within the plot. However, here one can identify rows that are close to each other and an homogenous canopy, which are indicative of seasonal agriculture.. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;12&lt;/th&gt;
+    &lt;td&gt;14.28806209&lt;/td&gt;
+    &lt;td&gt;-89.40918841&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;30/07/2023&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@14.2879088,-89.4093389,3a,43.9y,63.5h,82.32t/data=!3m7!1e1!3m5!1sAF1QipPROl6TlZB1sJje6TTcEwaLpvrb7W7vpcb4ZLLR!2e10!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPROl6TlZB1sJje6TTcEwaLpvrb7W7vpcb4ZLLR%3Dw900-h600-k-no-pi7.678503659807447-ya70.44704878640675-ro0-fo100!7i7680!8i3840?entry=ttu&amp;amp;g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/14.288062,-89.409188&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/14.288062,-89.409188&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;El Salvador&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_15_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Fallow lands can have regrowth of secondary bush-like vegetation that can resemble coffee. However, these bushes do not follow an organized pattern such as the one seen in coffee plantations &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;15&lt;/th&gt;
+    &lt;td&gt;-9.774922383&lt;/td&gt;
+    &lt;td&gt;-75.00807588&lt;/td&gt;
+    &lt;td&gt;Fallow&lt;/td&gt;
+    &lt;td&gt;9/8/24&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@-9.7752459,-75.0083024,3a,60y,114.76h,89.88t/data=!3m7!1e1!3m5!1sh6SWPbY3LmeQeUbHbfzmkg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0.11652965855100206%26panoid%3Dh6SWPbY3LmeQeUbHbfzmkg%26yaw%3D114.76270278767792!7i16384!8i8192?entry=ttu&amp;amp;g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-9.774922,-75.008076&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-9.774922,-75.008076&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Peru&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_17_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Fallow lands can have regrowth of secondary bush-like vegetation that can resemble coffee. However, these bushes do not follow an organized pattern such as the one seen in coffee plantations &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;17&lt;/th&gt;
+    &lt;td&gt;-31.5048809&lt;/td&gt;
+    &lt;td&gt;-52.91163879&lt;/td&gt;
+    &lt;td&gt;Fallow&lt;/td&gt;
+    &lt;td&gt;30/07/2023&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@-31.505101,-52.9116945,3a,60y,8.04h,85.24t/data=!3m7!1e1!3m5!1sxCNkKypFYUwXMi9yzyZMpQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D4.757511278696384%26panoid%3DxCNkKypFYUwXMi9yzyZMpQ%26yaw%3D8.038079971323265!7i16384!8i8192?entry=ttu&amp;amp;g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-31.504881,-52.911639&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-31.504881,-52.911639&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Brazil&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_24_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Some perennial crops are grown on an annual basis, in this case cassava. The planting pattern can be very similar to coffee, however the rows are closer together and the canopy is more homogenous. The use of time series can show the frequent harvest of the crop. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;24&lt;/th&gt;
+    &lt;td&gt;-5.190842182&lt;/td&gt;
+    &lt;td&gt;105.3504143&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;27/03/2023&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@-5.1907297,105.3503769,3a,60y,155.79h,80.47t/data=!3m7!1e1!3m5!1s9PhlJahS0d8jb3n_OO8Sig!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D9.53348942609685%26panoid%3D9PhlJahS0d8jb3n_OO8Sig%26yaw%3D155.78742751844052!7i16384!8i8192?entry=ttu&amp;amp;g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-5.190842,105.350414&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-5.190842,105.350414&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Indonesia&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_25_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Seasonal agriculture, rice in this case, can display canopy similar to coffee. However, the planting pattern is much tighter and the canopy is often much more homogenous than would be typical of coffee plantations. Time-series analysis can highlight the annual life cycle of such crops. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;25&lt;/th&gt;
+    &lt;td&gt;-5.163660428&lt;/td&gt;
+    &lt;td&gt;105.3106262&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;27/03/2023&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/@-5.1638353,105.3105937,3a,60y,90t/data=!3m7!1e1!3m5!1sYnG_C1sTSQmR3Zh3AtWdtQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DYnG_C1sTSQmR3Zh3AtWdtQ%26yaw%3D0!7i16384!8i8192?entry=ttu&amp;amp;g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-5.16366,105.310626&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-5.16366,105.310626&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Indonesia&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_42_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Seasonal agriculture can display canopy similar to coffee. However, the planting pattern is much tighter and the canopy is often much more homogenous than would be typical of coffee plantations. Time-series analysis can highlight the annual life cycle of such crops. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;42&lt;/th&gt;
+    &lt;td&gt;12.85070152&lt;/td&gt;
+    &lt;td&gt;-15.02780761&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;3/10/23&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/12.850702,-15.027808&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/12.850702,-15.027808&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Senegal&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_47_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; In some cases, seasonal agriculture can be grown with shade trees within or around the plot, which can be similar to agroforestry. However, the planting pattern is much tighter and the canopy is often much more homogenous. Time-series analysis can easily highlight the annual life cycle of such crops. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;47&lt;/th&gt;
+    &lt;td&gt;-1.195833042&lt;/td&gt;
+    &lt;td&gt;37.37056471&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;27/05/2024&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-1.195833,37.370565&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-1.195833,37.370565&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kenya&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_87_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Seasonal agriculture, in this case maize, can display patterns than resemble coffee plantations, and in some cases can be grown with shade trees within the plot. However, one can identify rows that are closer to each other and a more homogenous canopy than would be typical of coffee plantations. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;87&lt;/th&gt;
+    &lt;td&gt;-4.4880281&lt;/td&gt;
+    &lt;td&gt;120.0125875&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;22/02/2025&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/4%C2%B029%2713.2%22S&amp;#43;119%C2%B053%2712.1%22E/@-4.4879352,120.0123628,3a,75y,122.63h,90t/data=!3m7!1e1!3m5!1sO_ZRoixN8mB7UNyoXYEf4g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DO_ZRoixN8mB7UNyoXYEf4g%26yaw%3D122.62972280373474!7i16384!8i8192!4m4!3m3!8m2!3d-4.4870055!4d119.8866968?hl=vi-VN&amp;amp;entry=ttu&amp;amp;g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-4.488028,120.012588&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-4.488028,120.012588&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Indonesia&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_91_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Seasonal agriculture, in this case maize, can display patterns than resemble coffee plantations, and in some cases can be grown with shade trees within the plot. However, one can identify rows that are closer to each other and a more homogenous canopy than would be typical of coffee plantations. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;91&lt;/th&gt;
+    &lt;td&gt;-3.356624&lt;/td&gt;
+    &lt;td&gt;120.3804683&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;25/09/2024&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/3%C2%B025%2753.6%22S&amp;#43;120%C2%B021%2718.2%22E/@-3.356604,120.3806656,3a,75y,291.95h,91.68t/data=!3m7!1e1!3m5!1s0Vei-eV9X-YvzN74DYa15w!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-1.6829314011852858%26panoid%3D0Vei-eV9X-YvzN74DYa15w%26yaw%3D291.95412195249287!7i16384!8i8192!4m4!3m3!8m2!3d-3.4315521!4d120.3550496?hl=vi-VN&amp;amp;entry=ttu&amp;amp;g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-3.356624,120.380468&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-3.356624,120.380468&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Indonesia&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_93_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Seasonal agriculture, in this case maize, can display patterns than resemble coffee plantations, and in some cases can be grown with shade trees within the plot. However, one can identify rows that are closer to each other and a more homogenous canopy than would be typical of coffee plantations. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;93&lt;/th&gt;
+    &lt;td&gt;6.572831088&lt;/td&gt;
+    &lt;td&gt;0.369598606&lt;/td&gt;
+    &lt;td&gt;Seasonal agriculture&lt;/td&gt;
+    &lt;td&gt;11/12/23&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/Le&amp;#43;Katoum/@6.5731087,0.3696789,3a,75y,266.17h,90t/data=!3m7!1e1!3m5!1s6OOqFqLFMOEYDDX8fluVFw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3D6OOqFqLFMOEYDDX8fluVFw%26yaw%3D266.1659957240007!7i13312!8i6656!4m15!1m5!3m4!2zNsKwMDknNTYuNSJOIDDCsDE3JzQwLjEiVw!8m2!3d6.1656804!4d-0.2944627!3m8!1s0xf96487f59b06721:0xf11e5a7b83757eda!5m2!4m1!1i2!8m2!3d4.6568867!4d-6.9207684!16s%2Fg%2F1hg4vwq14?hl=vi-VN&amp;amp;entry=ttu&amp;amp;g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/6.572831,0.369599&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/6.572831,0.369599&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ghana&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_101_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Some perennial crops are grown on an annual basis, in this case cassava. The planting pattern can be very similar to coffee, however the rows are closer together and the canopy is more homogenous. The use of time series can show the frequent harvest of the crop. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;101&lt;/th&gt;
+    &lt;td&gt;-14.5885944&lt;/td&gt;
+    &lt;td&gt;-39.5575995&lt;/td&gt;
+    &lt;td&gt;Cassava &lt;/td&gt;
+    &lt;td&gt;15/06/2024&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/-14.588594,-39.5576&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/-14.588594,-39.5576&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Brazil&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=5&gt;&lt;img src=&#34;../../images/confounding_samples/confounding_110_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=4&gt;&lt;p&gt; Some perennial crops are grown on an annual basis, in this case cassava. The planting pattern can be very similar to coffee, however the rows are closer together and the canopy is more homogenous. The use of time series can show the frequent harvest of the crop. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;110&lt;/th&gt;
+    &lt;td&gt;10.017489&lt;/td&gt;
+    &lt;td&gt;76.93008&lt;/td&gt;
+    &lt;td&gt;Cassava&lt;/td&gt;
+    &lt;td&gt;6/4/25&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://maps.app.goo.gl/y8NzzoPb5arJz5px9&#34; target=”_blank”&gt;View in Street View&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/10.017489,76.93008&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/10.017489,76.93008&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;India&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+- /coffee_book/01_coffee_gallery/02_confounding_samples/06_seasonal/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Irrigation Practices</title>
+        <link>/coffee_book/02_coffee_cultivation/07_irrigation/</link>
+        <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+        
+        <guid>/coffee_book/02_coffee_cultivation/07_irrigation/</guid>
+        <description>Commodity Recognition Book /coffee_book/02_coffee_cultivation/07_irrigation/ -&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;In highly intensified coffee systems, such as those in Vietnam, irrigation is often employed to sustain consistent productivity. When an irrigation system is in place, the coffee plot develops a more homogeneous phenology, behaving as a synchronized unit.  Flowering, for instance, can be precisely triggered through irrigation management, resulting in the entire plot flowering simultaneously, even when neighboring plots have not yet begun.  This synchronized flowering can be observed in high-resolution imagery, where the crop appears white due to the large amount of flowers.&lt;/p&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;table class=&#34;table datatable-csv &#34; id=&#34;t-285137469&#34; itemscope itemtype=&#34;https://schema.org/Table&#34;&gt;
+
+&lt;thead&gt; 
+  &lt;tr&gt;&lt;th scope=&#34;col&#34;&gt;id&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;lat&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;lon&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;topic&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;coffee planting pattern&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;shade planting pattern&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;shade level&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;age&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;pruning&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;variety&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;intercrop&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;irrigation&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;special pattern&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;slope artifact&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;imagery date&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;streetview link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;google earth link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;google maps link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;country&lt;/th&gt;&lt;/tr&gt;
+  &lt;/thead&gt;
+&lt;tbody&gt;
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_13_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Flowering coffee. The white flowers are clearly visible. In Vietnam, plots are irrigated and flowering is triggered through management, thus the whole plot starts flowering at the same time, but not necessarily in synchronization with neighboring plots. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;13&lt;/th&gt;
+    &lt;td&gt;12.07458953&lt;/td&gt;
+    &lt;td&gt;107.6762249&lt;/td&gt;
+    &lt;td&gt;Irrigation&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;1/27/24&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@12.07459,107.676225&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/12.07459,107.676225&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_14_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Flowering coffee. The white flowers are clearly visible. In Vietnam, plots are irrigated and flowering is triggered through management, thus the whole plot starts flowering at the same time, but not necessarily in synchronization with neighboring plots. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;14&lt;/th&gt;
+    &lt;td&gt;12.0906379&lt;/td&gt;
+    &lt;td&gt;107.6418266&lt;/td&gt;
+    &lt;td&gt;Irrigation&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Low&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;1/27/24&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@12.090638,107.641827&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/12.090638,107.641827&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_15_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Robusta full-sun coffee with some intercrop. The plants are not pruned regularly and are much larger than what can typically be seen in Latin America. Coffee can be seen flowering in 2019. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;15&lt;/th&gt;
+    &lt;td&gt;11.7699846&lt;/td&gt;
+    &lt;td&gt;108.1190954&lt;/td&gt;
+    &lt;td&gt;Irrigation&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;2/23/19&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@11.769985,108.119095&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/11.769985,108.119095&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_92_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Flowering coffee. The white flowers are clearly visible. In Vietnam, plots are irrigated and flowering is triggered through management, thus the whole plot starts flowering at the same time, but not necessarily in synchronization with neighboring plots. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;92&lt;/th&gt;
+    &lt;td&gt;11.6475077&lt;/td&gt;
+    &lt;td&gt;107.8719302&lt;/td&gt;
+    &lt;td&gt;Irrigation&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;3/6/24&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@11.647508,107.87193&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/11.647508,107.87193&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_94_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Flowering coffee. The white flowers are clearly visible. In Vietnam, plots are irrigated and flowering is triggered through management, thus the whole plot starts flowering at the same time, but not necessarily in synchronization with neighboring plots. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;94&lt;/th&gt;
+    &lt;td&gt;13.9341988&lt;/td&gt;
+    &lt;td&gt;107.9718212&lt;/td&gt;
+    &lt;td&gt;Irrigation&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;2/12/24&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@13.934199,107.971821&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/13.934199,107.971821&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_97_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Flowering coffee. The white flowers are clearly visible. In Vietnam, plots are irrigated and flowering is triggered through management, thus the whole plot starts flowering at the same time, but not necessarily in synchronization with neighboring plots. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;97&lt;/th&gt;
+    &lt;td&gt;13.1481609&lt;/td&gt;
+    &lt;td&gt;108.1980476&lt;/td&gt;
+    &lt;td&gt;Irrigation&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Low&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;2/9/19&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@13.148161,108.198048&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/13.148161,108.198048&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_99_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Robusta coffee infrequently pruned with a moderate level of shade cover. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;99&lt;/th&gt;
+    &lt;td&gt;12.2922885&lt;/td&gt;
+    &lt;td&gt;107.5885569&lt;/td&gt;
+    &lt;td&gt;Irrigation&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Low&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;2/23/19&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@12.292289,107.588557&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/12.292289,107.588557&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+- /coffee_book/02_coffee_cultivation/07_irrigation/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Seasonal Cycles</title>
+        <link>/coffee_book/02_coffee_cultivation/08_coffee_phenology/</link>
+        <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+        
+        <guid>/coffee_book/02_coffee_cultivation/08_coffee_phenology/</guid>
+        <description>Commodity Recognition Book /coffee_book/02_coffee_cultivation/08_coffee_phenology/ -&lt;h2 id=&#34;coffee--phenology&#34;&gt;Coffee  phenology&lt;/h2&gt;
+&lt;p&gt;Robusta coffee goes through a growth cycle of two years that can impact how it looks in satellite imagery. Understanding this cycle, called phenology, can help you interpret changes in canopy color, texture, and structure throughout the year.&lt;/p&gt;
+&lt;p&gt;For example, in Vietnam, where Robusta is the predominant coffee variety, the calendar can be divided into four main stages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Flower-bud initiation (November–December):&lt;/strong&gt; The new season begins as coffee plants prepare to flower. Buds start to form and develop.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Flowering (January–March):&lt;/strong&gt; White flowers appear, often after the first rains. This period is short but important: it signals the start of the productive phase.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fruit setting and development (April–August):&lt;/strong&gt; The flowers turn into small green berries, which grow in size over the months. The canopy stays dense and green.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Ripening and harvest (September–November):&lt;/strong&gt; Berries ripen, changing color from green to red or yellow, depending on the variety. This is when harvesting takes place.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following figure shows a time-series of the average greenness of over four hundred Robusta coffee plots in Vietnam’s Central Highlands, based on NDVI (a common vegetation index). The seasonal NDVI pattern reflects key stages of the coffee growth cycle, from flowering to harvest.
+&lt;img src=&#34;images/coffee-phenology-1.webp?width=600px&#34; alt=&#34;Coffee_phenology &amp;amp; Yield&#34; title=&#34;This figure shows a time-series of the average greenness of over 400 Robusta coffee plots in Vietnam’s Central Highlands, based on NDVI (a common vegetation index). The seasonal NDVI pattern reflects key stages of the coffee growth cycle, from flowering to harvest.&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;table class=&#34;table datatable-csv &#34; id=&#34;t-948126537&#34; itemscope itemtype=&#34;https://schema.org/Table&#34;&gt;
+
+&lt;thead&gt; 
+  &lt;tr&gt;&lt;th scope=&#34;col&#34;&gt;id&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;lat&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;lon&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;topic&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;coffee planting pattern&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;shade planting pattern&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;shade level&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;age&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;pruning&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;variety&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;intercrop&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;irrigation&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;special pattern&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;slope artifact&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;imagery date&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;streetview link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;google earth link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;google maps link&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;country&lt;/th&gt;&lt;/tr&gt;
+  &lt;/thead&gt;
+&lt;tbody&gt;
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_13_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Flowering coffee. The white flowers are clearly visible. In Vietnam, plots are irrigated and flowering is triggered through management, thus the whole plot starts flowering at the same time, but not necessarily in synchronization with neighboring plots. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;13&lt;/th&gt;
+    &lt;td&gt;12.07458953&lt;/td&gt;
+    &lt;td&gt;107.6762249&lt;/td&gt;
+    &lt;td&gt;Irrigation&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;1/27/24&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@12.07459,107.676225&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/12.07459,107.676225&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_14_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Flowering coffee. The white flowers are clearly visible. In Vietnam, plots are irrigated and flowering is triggered through management, thus the whole plot starts flowering at the same time, but not necessarily in synchronization with neighboring plots. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;14&lt;/th&gt;
+    &lt;td&gt;12.0906379&lt;/td&gt;
+    &lt;td&gt;107.6418266&lt;/td&gt;
+    &lt;td&gt;Irrigation&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Low&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;1/27/24&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@12.090638,107.641827&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/12.090638,107.641827&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_15_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Robusta full-sun coffee with some intercrop. The plants are not pruned regularly and are much larger than what can typically be seen in Latin America. Coffee can be seen flowering in 2019. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;15&lt;/th&gt;
+    &lt;td&gt;11.7699846&lt;/td&gt;
+    &lt;td&gt;108.1190954&lt;/td&gt;
+    &lt;td&gt;Irrigation&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;2/23/19&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@11.769985,108.119095&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/11.769985,108.119095&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_92_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Flowering coffee. The white flowers are clearly visible. In Vietnam, plots are irrigated and flowering is triggered through management, thus the whole plot starts flowering at the same time, but not necessarily in synchronization with neighboring plots. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;92&lt;/th&gt;
+    &lt;td&gt;11.6475077&lt;/td&gt;
+    &lt;td&gt;107.8719302&lt;/td&gt;
+    &lt;td&gt;Irrigation&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;3/6/24&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@11.647508,107.87193&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/11.647508,107.87193&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_94_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Flowering coffee. The white flowers are clearly visible. In Vietnam, plots are irrigated and flowering is triggered through management, thus the whole plot starts flowering at the same time, but not necessarily in synchronization with neighboring plots. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;94&lt;/th&gt;
+    &lt;td&gt;13.9341988&lt;/td&gt;
+    &lt;td&gt;107.9718212&lt;/td&gt;
+    &lt;td&gt;Irrigation&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;Full sun&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;2/12/24&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@13.934199,107.971821&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/13.934199,107.971821&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_97_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Flowering coffee. The white flowers are clearly visible. In Vietnam, plots are irrigated and flowering is triggered through management, thus the whole plot starts flowering at the same time, but not necessarily in synchronization with neighboring plots. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;97&lt;/th&gt;
+    &lt;td&gt;13.1481609&lt;/td&gt;
+    &lt;td&gt;108.1980476&lt;/td&gt;
+    &lt;td&gt;Irrigation&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Low&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;2/9/19&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@13.148161,108.198048&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/13.148161,108.198048&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+  &lt;tr&gt;
+    &lt;td colspan=12&gt;&lt;img src=&#34;../../images/coffee_samples/coffee_99_100_m.webp&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;&lt;/td&gt;
+    &lt;td colspan=8&gt;&lt;p&gt; Robusta coffee infrequently pruned with a moderate level of shade cover. &lt;/p&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;th scope=&#34;row&#34; &gt;99&lt;/th&gt;
+    &lt;td&gt;12.2922885&lt;/td&gt;
+    &lt;td&gt;107.5885569&lt;/td&gt;
+    &lt;td&gt;Irrigation&lt;/td&gt;
+    &lt;td&gt;Regular&lt;/td&gt;
+    &lt;td&gt;Irregular&lt;/td&gt;
+    &lt;td&gt;Low&lt;/td&gt;
+    &lt;td&gt;Mature&lt;/td&gt;
+    &lt;td&gt;Infrequent&lt;/td&gt;
+    &lt;td&gt;Robusta&lt;/td&gt;
+    &lt;td&gt;Bare soil / weeding&lt;/td&gt;
+    &lt;td&gt;Visible irrigation pattern&lt;/td&gt;
+    &lt;td&gt;Normal&lt;/td&gt;
+    &lt;td&gt;No&lt;/td&gt;
+    &lt;td&gt;2/23/19&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://earth.google.com/web/search/@12.292289,107.588557&#34; target=”_blank”&gt;View in Google Earth&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.google.com/maps/place/12.292289,107.588557&#34; target=”_blank”&gt;View in Google Maps&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vietnam&lt;/td&gt;
+    
+  &lt;/tr&gt;
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+- /coffee_book/02_coffee_cultivation/08_coffee_phenology/ - </description>
+        </item>
+    
+    
+  </channel>
+</rss> 

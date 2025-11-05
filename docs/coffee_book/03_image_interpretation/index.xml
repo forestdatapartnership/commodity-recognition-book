@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image Interpretation Challenges :: Commodity Recognition Book</title>
+    <link>/coffee_book/03_image_interpretation/index.html</link>
+    <description>Learn to recognize patterns and improve interpretation accuracy.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Nov 2024 19:36:41 +0700</lastBuildDate>
+    <atom:link href="/coffee_book/03_image_interpretation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Special Patterns</title>
+      <link>/coffee_book/03_image_interpretation/01_special/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:34 +0700</pubDate>
+      <guid>/coffee_book/03_image_interpretation/01_special/index.html</guid>
+      <description>Some coffee systems exhibit unique or uncommon planting patterns that deviate from traditional configurations.</description>
+    </item>
+    <item>
+      <title>Terrain Artifacts</title>
+      <link>/coffee_book/03_image_interpretation/02_artifact/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:41 +0700</pubDate>
+      <guid>/coffee_book/03_image_interpretation/02_artifact/index.html</guid>
+      <description>Coffee is often grown in mountainous environments, where slope and shadow effects can distort the visual appearance of coffee systems in high-resolution imagery. These artifacts may obscure planting patterns or create visual inconsistencies, highlighting the importance of careful interpretation.</description>
+    </item>
+  </channel>
+</rss>

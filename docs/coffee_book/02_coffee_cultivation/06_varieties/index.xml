@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coffee Varieties :: Commodity Recognition Book</title>
+    <link>/coffee_book/02_coffee_cultivation/06_varieties/index.html</link>
+    <description>The appearance of coffee systems in imagery can vary significantly due to regional differences in coffee varieties and their associated growing conditions.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="/coffee_book/02_coffee_cultivation/06_varieties/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Commodity Recognition Book</title>
+    <link>/index.html</link>
+    <description>Introduction The use of satellite imagery to identify commodities is critical for understanding the impact of agriculture on natural systems, and for the successful implementation of conservation policies like the European Regulation on Deforestation-Free Products (EUDR). The scale of global agriculture demands that this identification be supported with artificial intelligence (AI); however, in many production systems, commodities are difficult to disambiguate from each other and from natural forests, so accurate identification still requires specialized human expertise. This limits the community’s ability to train and evaluate AI models, and in fact limits the community’s ability to even agree on evaluation procedures for AI systems.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Nov 2024 19:36:41 +0700</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coffee Recognition</title>
+      <link>/coffee_book/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:41 +0700</pubDate>
+      <guid>/coffee_book/index.html</guid>
+      <description>Learn to recognize coffee in satellite imagery.</description>
+    </item>
+    <item>
+      <title>Cocoa Recognition</title>
+      <link>/cocoa_book/index.html</link>
+      <pubDate>Sat, 23 Nov 2024 19:36:25 +0700</pubDate>
+      <guid>/cocoa_book/index.html</guid>
+      <description>Learn to recognize cocoa in satellite imagery.</description>
+    </item>
+  </channel>
+</rss>
